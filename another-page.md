@@ -4,6 +4,6 @@ layout: page
 
 title: Week 1
 
-permalink: https://videars.github.io/Week1/
+permalink: /Week1/
 
 ---
