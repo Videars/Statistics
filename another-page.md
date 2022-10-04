@@ -1,8 +1,6 @@
 ---
 
-layout: page
-
-theme: hacker
+theme: jekyll-theme-hacker
 
 title: Week 1
 
