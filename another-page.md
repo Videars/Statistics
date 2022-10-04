@@ -9,7 +9,7 @@ permalink: /Week1/
 ---
 
 # Research
->Definition of statistics. What is a data set? From the observation units to the dataset attributes and values. Interesting application of statistics in cybersecurity.
+>Definition of statistics. What is a data set? From the observation units to the dataset attributes and values.
 
 Statistics is the science of collecting, processing, analyzing, presenting and interpreting data.\
 It is a science because it founds itself on a systematic body of knowledge made by axioms, theorems and mathematical ideas like differential and integral calculus, linear algebra, and probability theory. Statistics are used in virtually all scientific disciplines such as the physical and social sciences, as well as in business, the humanities, government and manufacturing.\
@@ -19,6 +19,8 @@ Once the space of units observed U = {u_1, u_2, ..., u_n} and the space of attri
 <img src ="https://user-images.githubusercontent.com/105921751/193462961-c9d5b5fa-7b63-4377-88be-dcfa587c2f1e.jpg" width="500">\
 Now all the data collected must be processed and analyzed with the statistical tools needed and then presented to the public through graphs.\
 In the end statistics provide the information to educate how things work. Statistics are used to conduct research, evaluate outcomes, develop critical thinking and make informed decisions. Statistics can be used to inquire about almost any field of study to investigate why things happen, when they occur and whether its reoccurrence is predictable.
+
+>Interesting application of statistics in cybersecurity.
 
 In order to respond quickly to a cyber security attack, organizations need to analyze high-volumes of traffic data and detect anomalies in real time. For instance there are networks with tens of thousands of hosts, transferring 2-3 terabytes of data/day and 44,000 packets/sec on average. Some interesting work using statistical techniques such as sequential hypothesis testing has shown that this is possible. The basic idea is to model accesses to local IP addresses as a random walk on one of two stochastic processes, corresponding respectively to a benign and a malicious process. The use of sequential hypothesis testing is intriguing because it can be used to establish mathematical bounds on the expected performance of the algorithm.
 
@@ -44,7 +46,7 @@ The program made with VB.net creates a windows form with a starting central butt
 When the button is clicked, a timer starts and a progress bar starts loading.
 <img src = "https://user-images.githubusercontent.com/105921751/193464826-76a215a8-4873-4af7-bc41-cc88d171e446.png" width = "500">
 
-At the end of the loading, a tool strip appears at the top of the windows with two buttons: a pi calculator and an Euler's number calculator.
+At the end of the loading, a tool strip appears at the top of the windows with two buttons: a pi calculator and an Euler's number calculator.\
 <img src = "https://user-images.githubusercontent.com/105921751/193464830-f9a30535-a7a8-4b52-812b-8aa931c86d21.png" width = "500">
 
 Once one of the two buttons is clicked, a text box appears with the selected number printed out.
