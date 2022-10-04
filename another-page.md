@@ -29,7 +29,7 @@ In order to respond quickly to a cyber security attack, organizations need to an
 # Application
 >Create simple applications in C# and VB.net to play with handlers and to understand syntax differences between the two.
 
-#### C#
+### C#
 The program made with C# creates a windows form with a starting central button.
 <img src = "https://user-images.githubusercontent.com/105921751/193464799-d47f8671-8844-49ff-a0ea-96d0257e14ec.png" width = "500">
 
@@ -39,7 +39,7 @@ When the button is clicked, a timer starts and a progress bar starts loading.
 Once the progress bar is loaded, an image of a working processor pops up.
 <img src = "https://user-images.githubusercontent.com/105921751/193464807-9bf92554-7193-4ea6-8ebd-2f52295b28b4.png" width = "500">
 
-#### VB.net
+### VB.net
 The program made with VB.net creates a windows form with a starting central button.
 <img src = "https://user-images.githubusercontent.com/105921751/193464817-9e0b064b-c88f-49f4-b278-d79370c55147.png" width = "500">
 
