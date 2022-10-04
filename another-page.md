@@ -1,9 +1,3 @@
----
-layout: default
----
-
-## Welcome
-
-_yay_
-
-[back](./)
+layout: page
+title: Week 1
+permalink: /Week1
