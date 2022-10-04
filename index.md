@@ -1,4 +1,3 @@
-theme: hacker
 **Matteo Vicari's blog for the Statistics course**
 
 Week 1\
