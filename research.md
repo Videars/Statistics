@@ -2,9 +2,9 @@
 
 theme: jekyll-theme-hacker
 
-title: Week 1
+title: Research
 
-permalink: /Week1/
+permalink: /Week1/research
 
 ---
 
