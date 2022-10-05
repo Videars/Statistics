@@ -8,8 +8,8 @@ permalink: /Week1/
 
 ---
 
-C\# code: [c\#_code](https://videars.github.io/Week1/csharpcode)
+### Research: [Paper](https://videars.github.io/Week1/research)
 
-VB.net code: [vb_code](https://videars.github.io/Week1/vbcode)
+### C\# code: [c\#_code](https://videars.github.io/Week1/csharpcode)
 
-Research: [Paper](https://videars.github.io/Week1/research)
+### VB.net code: [vb_code](https://videars.github.io/Week1/vbcode)
