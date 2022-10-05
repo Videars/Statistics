@@ -11,13 +11,13 @@ permalink: /Week1/research
 # Research
 >Definition of statistics. What is a data set? From the observation units to the dataset attributes and values.
 
-Statistics is the science of collecting, processing, analyzing, presenting and interpreting data.\
-It is a science because it founds itself on a systematic body of knowledge made by axioms, theorems and mathematical ideas like differential and integral calculus, linear algebra, and probability theory. Statistics are used in virtually all scientific disciplines such as the physical and social sciences, as well as in business, the humanities, government and manufacturing.\
-The goal of this subject is to gather as much information as possible of a large set of objects or events (a population) by studying the characteristics of a smaller number of similar objects or events (a sample).\
-The first step in a statistical study is to define the observation units and the attributes that need to be collected. 
-Once the space of units observed U = {u_1, u_2, ..., u_n} and the space of attributes observable for each unit O = {o_1, o_2, ..., o_n} are defined, the statistician must define the unit of measure for each attribute and the instrument or the process to collect that value or data. Once this is all set, we can proceed to the phase of measurement and insert all the data inside tables. At the end of this phase we will have a data set whose most common structure is a matrix like the one presented:\
+Statistics is the science of **collecting**, **processing**, **analyzing**, **presenting** and **interpreting** data.\
+It is a science because it founds itself on a **systematic body of knowledge** made by axioms, theorems and mathematical ideas like differential and integral calculus, linear algebra, and probability theory. Statistics are used in virtually all scientific disciplines such as the physical and social sciences, as well as in business, the humanities, government and manufacturing.\
+The goal of this subject is to gather as much information as possible of a large set of objects or events (a **population**) by studying the characteristics of a smaller number of similar objects or events (a **sample**).\
+The first step in a statistical study is to define the **observation units** and the **attributes** that need to be collected. 
+Once the space of units observed U = {u_1, u_2, ..., u_n} and the space of attributes observable for each unit O = {o_1, o_2, ..., o_n} are defined, the statistician must define the **unit of measure** for each attribute and the instrument or the process to collect that value or data. Once this is all set, we can proceed to the phase of measurement and insert all the data inside **tables**. At the end of this phase we will have a **data set** whose most common structure is a matrix like the one presented:\
 <img src ="https://user-images.githubusercontent.com/105921751/193462961-c9d5b5fa-7b63-4377-88be-dcfa587c2f1e.jpg" width="500">\
-Now all the data collected must be processed and analyzed with the statistical tools needed and then presented to the public through graphs.\
+Now all the data collected must be processed and analyzed with the statistical tools needed and then presented to the public through **graphs**.\
 In the end statistics provide the information to educate how things work. Statistics are used to conduct research, evaluate outcomes, develop critical thinking and make informed decisions. Statistics can be used to inquire about almost any field of study to investigate why things happen, when they occur and whether its reoccurrence is predictable.
 
 >Interesting application of statistics in cybersecurity.
@@ -57,7 +57,7 @@ Once one of the two buttons is clicked, a text box appears with the selected num
 >Main differences between C# and VB.net.
 
 VB (Visual Basic.NET) is a simple language to understand for it resembles the basic English language. Unlike other languages including C#, it mostly uses words like AND. C#, on the flip side, is a part of the C family and owns the features of Python, Java, and C++.
-Moreover, in contrast to VB.NET vs C#, C# is case sensitive, while VB is not. Below are the two examples of the features that prove the fact.
+Moreover, in contrast to VB.NET vs C#, **C# is case sensitive**, while VB is not. Below are the two examples of the features that prove the fact.
 
 #### Shadowing
 In VB (Visual Basic.NET), the Shadow feature helps a developer provide a new implementation of a base class member without overriding a member. By using the keyword ‘Shadows’, one can allow a base class member into a derived class. The point to be noted is that the return type of the shadowed member is not the same as the base class member.
@@ -70,7 +70,7 @@ The hiding feature is not supported in the VB.NET programming language.
 #### Keywords
 Writing syntax is different for both languages. Here are some examples of the differences between C# and VB.NET keywords.
 
-* To declare a variable, ‘declarators’ is used in C#, whereas, ‘Private, Public, Friend, Protected, Static 1, Shared, Dim’ is used in VB.
+* To declare a variable, ‘declarators’ is used in C#, whereas, ‘Private, Public ,Friend, Protected, Static, Shared, Dim’ is used in VB.
 * To create a new object, ‘New’ is used in C#, whereas ‘New, CreateObject ()’ is used in VB.
 * To refer to the current object, ‘this’ is used in C#, whereas, ‘Me’ is used in VB.
 * To retrieve characters from a string, ‘[]’ is used in C#, whereas, ‘GetChar Function’ is used in VB.
