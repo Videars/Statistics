@@ -22,8 +22,16 @@ In the end statistics provide the information to educate how things work. Statis
 
 >Interesting application of statistics in cybersecurity.
 
-In order to respond quickly to a cyber security attack, organizations need to analyze high-volumes of traffic data and detect anomalies in real time. For instance there are networks with tens of thousands of hosts, transferring 2-3 terabytes of data/day and 44,000 packets/sec on average. Some interesting work using statistical techniques such as sequential hypothesis testing has shown that this is possible. The basic idea is to model accesses to local IP addresses as a random walk on one of two stochastic processes, corresponding respectively to a benign and a malicious process. The use of sequential hypothesis testing is intriguing because it can be used to establish mathematical bounds on the expected performance of the algorithm.
+Attackers routinely perform random “portscans” of IP addresses to find vulnerable servers to compromise. Network Intrusion Detection Systems (NIDS) attempt to detect such behavior and flag these portscanners as malicious. An important need in such systems is prompt response: the sooner a NIDS detects malice, the lower the resulting damage. At the same time, a NIDS should not falsely implicate benign remote hosts as malicious. Balancing the goals of promptness and accuracy in detecting malicious scanners is a delicate and difficult task. We develop a connection between this problem and the theory of sequential hypothesis testing and show that one can model accesses to local IP addresses as a random walk on one of two stochastic processes, corresponding respectively to the access patterns of benign remote hosts and malicious ones. The detection problem then becomes one of observing a particular trajectory and inferring from it the most likely classification for the remote host. We use this insight to develop TRW (Threshold Random Walk), an online detection algorithm that identifies malicious remote hosts. Using an analysis of traces from two qualitatively different sites, we show that TRW requires a much smaller number of connection attempts (4 or 5 in practice) to detect malicious activity compared to previous schemes, while also providing theoretical bounds on the low (and configurable) probabilities of missed detection and false alarms. In summary, TRW performs significantly faster and also more accurately than other current solutions.
 
+Let an event be generated when a remote source $r$ makes a connection attempt to a local destination $l$. We classify the outcome of the attempt as either a “success” or a “failure”, where the latter corresponds to a connection attempt to an inactive host or to an inactive service on an otherwise active host.
+For a given $r$, let $Y_i$ be a random variable that represents the outcome of the first connection attempt by $r$ to the $i^{th}$ distinct local host, where
+$$ Y_i=
+\begin{cases}
+0 & \text{if he connection attempt is a succes}\\
+1 & \text{if the connection attempt is a failure}
+\end{cases} $$
+As outcomes $Y_1, Y_2, …,$ are observed, we wish to determine whether $r$ it is a scanner. Intuitively, we would like to make this detection as quickly as possible, but with a high probability of being correct. Since we want to make our decision in real-time as we observe the outcomes, and since we have the opportunity to make a declaration after each outcome, the detection problem is well suited for the method of sequential **hypothesis**.
 
 
 # Application
