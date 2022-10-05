@@ -25,7 +25,7 @@ In the end statistics provide the information to educate how things work. Statis
 Attackers routinely perform random “portscans” of IP addresses to find vulnerable servers to compromise. Network Intrusion Detection Systems (NIDS) attempt to detect such behavior and flag these portscanners as malicious. An important need in such systems is prompt response: the sooner a NIDS detects malice, the lower the resulting damage. At the same time, a NIDS should not falsely implicate benign remote hosts as malicious. Balancing the goals of promptness and accuracy in detecting malicious scanners is a delicate and difficult task. We develop a connection between this problem and the theory of sequential hypothesis testing and show that one can model accesses to local IP addresses as a random walk on one of two stochastic processes, corresponding respectively to the access patterns of benign remote hosts and malicious ones. The detection problem then becomes one of observing a particular trajectory and inferring from it the most likely classification for the remote host. We use this insight to develop TRW (Threshold Random Walk), an online detection algorithm that identifies malicious remote hosts. Using an analysis of traces from two qualitatively different sites, we show that TRW requires a much smaller number of connection attempts (4 or 5 in practice) to detect malicious activity compared to previous schemes, while also providing theoretical bounds on the low (and configurable) probabilities of missed detection and false alarms. In summary, TRW performs significantly faster and also more accurately than other current solutions.
 
 
-### Model
+### Model [^1]
 Let an event be generated when a remote source $r$ makes a connection attempt to a local destination $l$. We classify the outcome of the attempt as either a “success” or a “failure”, where the latter corresponds to a connection attempt to an inactive host or to an inactive service on an otherwise active host.
 For a given $r$, let $Y_i$ be a random variable that represents the outcome of the first connection attempt by $r$ to the $i^{th}$ distinct local host, where
 
@@ -124,3 +124,4 @@ Writing syntax is different for both languages. Here are some examples of the di
 * To retrieve characters from a string, ‘[]’ is used in C#, whereas, ‘GetChar Function’ is used in VB.
 * To declare a class, ‘Class’ is used in C#, whereas, ‘Class is used in VB.
 
+[^1]: Fast portscan detection using sequential hypothesis testing by Jaeyeon Jung, V. Paxson, A.W. Berger and H. Balakrishnan
