@@ -71,7 +71,7 @@ $$
 \Lambda(Y)=\frac{Pr[Y|H_1]}{Pr[Y|H_0]}
 $$
 
-where $Y$ is the vector of events observed so far and $Pr[YH_i]$ represents the conditional probability mass function of the event stream $Y$ given that model $H_i$ is true. The likelihood ratio is then compared to an upper threshold, $\mu_1\$, and a lower threshold, $\mu_0$. If $\Lambda(Y)\leq\mu_0$ then we accept hypothesis $H_0$. If $\Lambda(Y)\geq\mu_1$ then we accept hypothesis $H_1$. If $\mu_0\lt\Lambda(Y)\lt\mu_1$ then we wait for the next observation and the updated $\Lambda(Y)$.
+where $Y$ is the vector of events observed so far and $Pr[Y\mid H_i]$ represents the conditional probability mass function of the event stream $Y$ given that model $H_i$ is true. The likelihood ratio is then compared to an upper threshold, $\mu_1\$, and a lower threshold, $\mu_0$. If $\Lambda(Y)\leq\mu_0$ then we accept hypothesis $H_0$. If $\Lambda(Y)\geq\mu_1$ then we accept hypothesis $H_1$. If $\mu_0\lt\Lambda(Y)\lt\mu_1$ then we wait for the next observation and the updated $\Lambda(Y)$.
 
 
 # Application
