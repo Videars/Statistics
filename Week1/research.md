@@ -15,7 +15,7 @@ Statistics is the science of **collecting**, **processing**, **analyzing**, **pr
 It is a science because it founds itself on a **systematic body of knowledge** made by axioms, theorems and mathematical ideas like differential and integral calculus, linear algebra, and probability theory. Statistics are used in virtually all scientific disciplines such as the physical and social sciences, as well as in business, the humanities, government and manufacturing.\
 The goal of this subject is to gather as much information as possible of a large set of objects or events (a **population**) by studying the characteristics of a smaller number of similar objects or events (a **sample**).\
 The first step in a statistical study is to define the **observation units** and the **attributes** that need to be collected. 
-Once the space of units observed U = {u_1, u_2, ..., u_n} and the space of attributes observable for each unit O = {o_1, o_2, ..., o_n} are defined, the statistician must define the **unit of measure** for each attribute and the instrument or the process to collect that value or data. Once this is all set, we can proceed to the phase of measurement and insert all the data inside **tables**. At the end of this phase we will have a **data set** whose most common structure is a matrix like the one presented:\
+Once the space of units observed $U=\{ u_1, u_2, ..., u_n\}$ and the space of attributes observable for each unit $O=\{ o_1, o_2, ..., o_n\}$ are defined, the statistician must define the **unit of measure** for each attribute and the instrument or the process to collect that value or data. Once this is all set, we can proceed to the phase of measurement and insert all the data inside **tables**. At the end of this phase we will have a **data set** whose most common structure is a matrix like the one presented:\
 <img src ="https://user-images.githubusercontent.com/105921751/193462961-c9d5b5fa-7b63-4377-88be-dcfa587c2f1e.jpg" width="500">\
 Now all the data collected must be processed and analyzed with the statistical tools needed and then presented to the public through **graphs**.\
 In the end statistics provide the information to educate how things work. Statistics are used to conduct research, evaluate outcomes, develop critical thinking and make informed decisions. Statistics can be used to inquire about almost any field of study to investigate why things happen, when they occur and whether its reoccurrence is predictable.
@@ -25,12 +25,16 @@ In the end statistics provide the information to educate how things work. Statis
 Attackers routinely perform random “portscans” of IP addresses to find vulnerable servers to compromise. Network Intrusion Detection Systems (NIDS) attempt to detect such behavior and flag these portscanners as malicious. An important need in such systems is prompt response: the sooner a NIDS detects malice, the lower the resulting damage. At the same time, a NIDS should not falsely implicate benign remote hosts as malicious. Balancing the goals of promptness and accuracy in detecting malicious scanners is a delicate and difficult task. We develop a connection between this problem and the theory of sequential hypothesis testing and show that one can model accesses to local IP addresses as a random walk on one of two stochastic processes, corresponding respectively to the access patterns of benign remote hosts and malicious ones. The detection problem then becomes one of observing a particular trajectory and inferring from it the most likely classification for the remote host. We use this insight to develop TRW (Threshold Random Walk), an online detection algorithm that identifies malicious remote hosts. Using an analysis of traces from two qualitatively different sites, we show that TRW requires a much smaller number of connection attempts (4 or 5 in practice) to detect malicious activity compared to previous schemes, while also providing theoretical bounds on the low (and configurable) probabilities of missed detection and false alarms. In summary, TRW performs significantly faster and also more accurately than other current solutions.
 
 Let an event be generated when a remote source $r$ makes a connection attempt to a local destination $l$. We classify the outcome of the attempt as either a “success” or a “failure”, where the latter corresponds to a connection attempt to an inactive host or to an inactive service on an otherwise active host.
-For a given $r$, let $Y_i$ be a random variable that represents the outcome of the first connection attempt by $r$ to the $i^{th}$ distinct local host, where
-$$ Y_i=
+For a given $r$, let $Y_i$ be a random variable that represents the outcome of the first connection attempt by $r$ to the $i^{th}$ distinct local host, where\
+
+$$
+Y_i=
 \begin{cases}
-0 & \text{if he connection attempt is a succes}\\
-1 & \text{if the connection attempt is a failure}
-\end{cases} $$
+0 & \quad \text{if the connection attempt is a success}\\ 
+1 & \quad \text{if the connection attempt is a failure}
+\end{cases}
+$$
+
 As outcomes $Y_1, Y_2, …,$ are observed, we wish to determine whether $r$ it is a scanner. Intuitively, we would like to make this detection as quickly as possible, but with a high probability of being correct. Since we want to make our decision in real-time as we observe the outcomes, and since we have the opportunity to make a declaration after each outcome, the detection problem is well suited for the method of sequential **hypothesis**.
 
 
