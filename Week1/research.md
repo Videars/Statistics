@@ -71,7 +71,7 @@ $$
 \Lambda(Y)=\frac{Pr[Y|H_1]}{Pr[Y|H_0]}
 $$
 
-where $Y$ is the vector of events observed so far and $Pr[Y|H_i]$ represents the conditional probability mass function of the event stream $Y$ given that model $H_i$ is true. The likelihood ratio is then compared to an upper threshold, $\mu_1\$, and a lower threshold, $\mu_0$. If $\Lambda(Y)\leq\mu_0$ then we accept hypothesis $H_0$. If $\Lambda(Y)\geq\mu_1$ then we accept hypothesis $H_1$. If $\mu_0\lt\Lambda(Y)\lt\mu_1$ then we wait for the next observation and the updated $\Lambda(Y)$.
+where $Y$ is the vector of events observed so far and $$Pr[Y|H_i]$$ represents the conditional probability mass function of the event stream $Y$ given that model $H_i$ is true. The likelihood ratio is then compared to an upper threshold, $\mu_1\$, and a lower threshold, $\mu_0$. If $\Lambda(Y)\leq\mu_0$ then we accept hypothesis $H_0$. If $\Lambda(Y)\geq\mu_1$ then we accept hypothesis $H_1$. If $\mu_0\lt\Lambda(Y)\lt\mu_1$ then we wait for the next observation and the updated $\Lambda(Y)$.
 
 
 # Application
@@ -118,7 +118,7 @@ The hiding feature is not supported in the VB.NET programming language.
 #### Keywords
 Writing syntax is different for both languages. Here are some examples of the differences between C# and VB.NET keywords.
 
-* To declare a variable, ‘declarators’ is used in C#, whereas, ‘Private, Public ,Friend, Protected, Static, Shared, Dim’ is used in VB.
+* To declare a variable, ‘declarators’ is used in C#, whereas, ‘Private, Public, Friend, Protected, Static, Shared, Dim’ is used in VB.
 * To create a new object, ‘New’ is used in C#, whereas ‘New, CreateObject ()’ is used in VB.
 * To refer to the current object, ‘this’ is used in C#, whereas, ‘Me’ is used in VB.
 * To retrieve characters from a string, ‘[]’ is used in C#, whereas, ‘GetChar Function’ is used in VB.
