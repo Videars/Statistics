@@ -24,8 +24,10 @@ In the end statistics provide the information to educate how things work. Statis
 
 Attackers routinely perform random “portscans” of IP addresses to find vulnerable servers to compromise. Network Intrusion Detection Systems (NIDS) attempt to detect such behavior and flag these portscanners as malicious. An important need in such systems is prompt response: the sooner a NIDS detects malice, the lower the resulting damage. At the same time, a NIDS should not falsely implicate benign remote hosts as malicious. Balancing the goals of promptness and accuracy in detecting malicious scanners is a delicate and difficult task. We develop a connection between this problem and the theory of sequential hypothesis testing and show that one can model accesses to local IP addresses as a random walk on one of two stochastic processes, corresponding respectively to the access patterns of benign remote hosts and malicious ones. The detection problem then becomes one of observing a particular trajectory and inferring from it the most likely classification for the remote host. We use this insight to develop TRW (Threshold Random Walk), an online detection algorithm that identifies malicious remote hosts. Using an analysis of traces from two qualitatively different sites, we show that TRW requires a much smaller number of connection attempts (4 or 5 in practice) to detect malicious activity compared to previous schemes, while also providing theoretical bounds on the low (and configurable) probabilities of missed detection and false alarms. In summary, TRW performs significantly faster and also more accurately than other current solutions.
 
+
+### Model
 Let an event be generated when a remote source $r$ makes a connection attempt to a local destination $l$. We classify the outcome of the attempt as either a “success” or a “failure”, where the latter corresponds to a connection attempt to an inactive host or to an inactive service on an otherwise active host.
-For a given $r$, let $Y_i$ be a random variable that represents the outcome of the first connection attempt by $r$ to the $i^{th}$ distinct local host, where\
+For a given $r$, let $Y_i$ be a random variable that represents the outcome of the first connection attempt by $r$ to the $i^{th}$ distinct local host, where
 
 $$
 Y_i=
@@ -35,7 +37,41 @@ Y_i=
 \end{cases}
 $$
 
-As outcomes $Y_1, Y_2, …,$ are observed, we wish to determine whether $r$ it is a scanner. Intuitively, we would like to make this detection as quickly as possible, but with a high probability of being correct. Since we want to make our decision in real-time as we observe the outcomes, and since we have the opportunity to make a declaration after each outcome, the detection problem is well suited for the method of sequential **hypothesis**.
+As outcomes $Y_1, Y_2, …,$ are observed, we wish to determine whether $r$ it is a scanner. Intuitively, we would like to make this detection as quickly as possible, but with a high probability of being correct. Since we want to make our decision in real-time as we observe the outcomes, and since we have the opportunity to make a declaration after each outcome, the detection problem is well suited for the **method of sequential hypothesis**.
+
+### Sequential Hypothesis Testing
+We consider two hypotheses, $H_0$ and $H_1$, where $H_0$ is the hypothesis that the given remote source $r$ is benign and $H_1$ is the hypothesis that $r$ is a scanner.\
+Let us now assume that the random variables $Y_i|H_j$ for all $i=1,2,...$, are indipendent and identically distributed (I.I.D). Then we can express the distribution of the Bernoulli random variable $Y_i$ as:
+
+$$
+Pr\[Y_i=0|H_0\]=\theta_0, \quad Pr\[Y_i=1|H_0\]=1-\theta_0
+$$
+
+$$
+Pr\[Y_i=0|H_1\]=\theta_1, \quad Pr\[Y_i=1|H_1\]=1-\theta_1
+$$
+
+The observation that a connection attempt is more likely to be a success from a benign source than a malicious one implies the condition:
+
+$$
+\theta_0 > \theta_1
+$$
+
+Given the two hypotheses, there are four possible outcomes when a decision is made. The decision is called a detection when the algorithm selects $H_1$ when $H_1$ is in fact true. On the other hand, if the algorithm chooses $H_0$ instead, it is called false negative. Likewise, when $H_0$ is in fact true, picking $H_1$ constitutes a false positive. Finally, picking $H_0$ when $H_0$ is in fact true is termed nominal.\
+We use the detection probability, $P_D$, and the false positive probability, $P_F$, to specify performance conditions of the detection algorithm. In particular, for user-selected values $\alpha$ and $\beta$, we desire that:
+
+$$
+P_F \leq \alpha \quad and \quad P_D \geq \beta
+$$
+
+where typical values might be $\alpha=0.01$ and $\beta=0.99$.\
+The goal of the real-time detection algorithm is to make an early decision as an event stream arrives to the system while satisfying the performance conditions. As each event is observed we calculate the likelihood ratio: 
+
+$$
+\Lambda(Y)=\frac{Pr\[Y|H_1\]}{Pr\[Y|H_0\]}
+$$
+
+where $Y$ is the vector of events observed so far and $Pr\[Y|H_i\]$ represents the conditional probability mass function of the event stream $Y$ given that model $H_i$ is true. The likelihood ratio is then compared to an upper threshold, $\mu_1\$, and a lower threshold, $\mu_0$. If $\Lambda(Y)\leq\mu_0$ then we accept hypothesis $H_0$. If $\Lambda(Y)\geq\mu_1$ then we accept hypothesis $H_1$. If $\mu_0<\Lambda(Y)<\mu_1$ then we wait for the next observation and the updated $\Lambda(Y)$.
 
 
 # Application
