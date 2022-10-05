@@ -30,26 +30,26 @@ In order to respond quickly to a cyber security attack, organizations need to an
 >Create simple applications in C# and VB.net to play with handlers and to understand syntax differences between the two.
 
 ### C#
-The program made with C# creates a windows form with a starting central button.
+The program made with C# creates a windows form with a starting central button.\
 <img src = "https://user-images.githubusercontent.com/105921751/193464799-d47f8671-8844-49ff-a0ea-96d0257e14ec.png" width = "500">
 
-When the button is clicked, a timer starts and a progress bar starts loading.
+When the button is clicked, a timer starts and a progress bar starts loading.\
 <img src = "https://user-images.githubusercontent.com/105921751/193464803-ff8fe3b0-8df3-4140-b2e1-86e83f3ef126.png" width = "500">
 
-Once the progress bar is loaded, an image of a working processor pops up.
+Once the progress bar is loaded, an image of a working processor pops up.\
 <img src = "https://user-images.githubusercontent.com/105921751/193464807-9bf92554-7193-4ea6-8ebd-2f52295b28b4.png" width = "500">
 
 ### VB.net
-The program made with VB.net creates a windows form with a starting central button.
+The program made with VB.net creates a windows form with a starting central button.\
 <img src = "https://user-images.githubusercontent.com/105921751/193464817-9e0b064b-c88f-49f4-b278-d79370c55147.png" width = "500">
 
-When the button is clicked, a timer starts and a progress bar starts loading.
+When the button is clicked, a timer starts and a progress bar starts loading.\
 <img src = "https://user-images.githubusercontent.com/105921751/193464826-76a215a8-4873-4af7-bc41-cc88d171e446.png" width = "500">
 
 At the end of the loading, a tool strip appears at the top of the windows with two buttons: a pi calculator and an Euler's number calculator.\
 <img src = "https://user-images.githubusercontent.com/105921751/193464830-f9a30535-a7a8-4b52-812b-8aa931c86d21.png" width = "500">
 
-Once one of the two buttons is clicked, a text box appears with the selected number printed out.
+Once one of the two buttons is clicked, a text box appears with the selected number printed out.\
 <img src = "https://user-images.githubusercontent.com/105921751/193464834-26444263-ac91-427c-98c5-0ee942c6f95a.png" width = "500">
 
 
