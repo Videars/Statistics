@@ -15,7 +15,7 @@ Statistics is the science of **collecting**, **processing**, **analyzing**, **pr
 It is a science because it founds itself on a **systematic body of knowledge** made by axioms, theorems and mathematical ideas like differential and integral calculus, linear algebra, and probability theory. Statistics are used in virtually all scientific disciplines such as the physical and social sciences, as well as in business, the humanities, government and manufacturing.\
 The goal of this subject is to gather as much information as possible of a large set of objects or events (a **population**) by studying the characteristics of a smaller number of similar objects or events (a **sample**).\
 The first step in a statistical study is to define the **observation units** and the **attributes** that need to be collected. 
-Once the space of units observed $U=\{u_1, u_2, ..., u_n\}$ and the space of attributes observable for each unit $O=\{o_1, o_2, ..., o_n\}$ are defined, the statistician must define the **unit of measure** for each attribute and the instrument or the process to collect that value or data. Once this is all set, we can proceed to the phase of measurement and insert all the data inside **tables**. At the end of this phase we will have a **data set** whose most common structure is a matrix like the one presented:\
+Once the space of units observed $U=$ { $u_1, u_2, ..., u_n$ } and the space of attributes observable for each unit $O=$ { $o_1, o_2, ..., o_n$ } are defined, the statistician must define the **unit of measure** for each attribute and the instrument or the process to collect that value or data. Once this is all set, we can proceed to the phase of measurement and insert all the data inside **tables**. At the end of this phase we will have a **data set** whose most common structure is a matrix like the one presented:\
 <img src ="https://user-images.githubusercontent.com/105921751/193462961-c9d5b5fa-7b63-4377-88be-dcfa587c2f1e.jpg" width="500">\
 Now all the data collected must be processed and analyzed with the statistical tools needed and then presented to the public through **graphs**.\
 In the end statistics provide the information to educate how things work. Statistics are used to conduct research, evaluate outcomes, develop critical thinking and make informed decisions. Statistics can be used to inquire about almost any field of study to investigate why things happen, when they occur and whether its reoccurrence is predictable.
@@ -41,14 +41,14 @@ As outcomes $Y_1, Y_2, …,$ are observed, we wish to determine whether $r$ it i
 
 ### Sequential Hypothesis Testing
 We consider two hypotheses, $H_0$ and $H_1$, where $H_0$ is the hypothesis that the given remote source $r$ is benign and $H_1$ is the hypothesis that $r$ is a scanner.\
-Let us now assume that the random variables $Y_i|H_j$ for all $i=1,2,...$, are indipendent and identically distributed (I.I.D). Then we can express the distribution of the Bernoulli random variable $Y_i$ as:
+Let us now assume that the random variables $Y_i|H_j$ for all $i=1,2,...$, are indipendent and identically distributed ( $I.I.D$ ). Then we can express the distribution of the Bernoulli random variable $Y_i$ as:
 
 $$
-Pr\[Y_i=0|H_0\]=\theta_0, \quad Pr\[Y_i=1|H_0\]=1-\theta_0
+Pr[Y_i=0|H_0]=\theta_0, \quad Pr[Y_i=1|H_0]=1-\theta_0
 $$
 
 $$
-Pr\[Y_i=0|H_1\]=\theta_1, \quad Pr\[Y_i=1|H_1\]=1-\theta_1
+Pr[Y_i=0|H_1]=\theta_1, \quad Pr[Y_i=1|H_1]=1-\theta_1
 $$
 
 The observation that a connection attempt is more likely to be a success from a benign source than a malicious one implies the condition:
@@ -68,10 +68,10 @@ where typical values might be $\alpha=0.01$ and $\beta=0.99$.\
 The goal of the real-time detection algorithm is to make an early decision as an event stream arrives to the system while satisfying the performance conditions. As each event is observed we calculate the likelihood ratio: 
 
 $$
-\Lambda(Y)=\frac{Pr\[Y|H_1\]}{Pr\[Y|H_0\]}
+\Lambda(Y)=\frac{Pr[Y|H_1]}{Pr[Y|H_0]}
 $$
 
-where $Y$ is the vector of events observed so far and $Pr\[Y|H_i\]$ represents the conditional probability mass function of the event stream $Y$ given that model $H_i$ is true. The likelihood ratio is then compared to an upper threshold, $\mu_1\$, and a lower threshold, $\mu_0$. If $\Lambda(Y)\leq\mu_0$ then we accept hypothesis $H_0$. If $\Lambda(Y)\geq\mu_1$ then we accept hypothesis $H_1$. If $\mu_0<\Lambda(Y)<\mu_1$ then we wait for the next observation and the updated $\Lambda(Y)$.
+where $Y$ is the vector of events observed so far and $Pr[Y|H_i]$ represents the conditional probability mass function of the event stream $Y$ given that model $H_i$ is true. The likelihood ratio is then compared to an upper threshold, $\mu_1\$, and a lower threshold, $\mu_0$. If $\Lambda(Y)\leq\mu_0$ then we accept hypothesis $H_0$. If $\Lambda(Y)\geq\mu_1$ then we accept hypothesis $H_1$. If $\mu_0<\Lambda(Y)<\mu_1$ then we wait for the next observation and the updated $\Lambda(Y)$.
 
 
 # Application
