@@ -124,4 +124,4 @@ Writing syntax is different for both languages. Here are some examples of the di
 * To retrieve characters from a string, ‘[]’ is used in C#, whereas, ‘GetChar Function’ is used in VB.
 * To declare a class, ‘Class’ is used in C#, whereas, ‘Class is used in VB.
 
-[^1]: Fast portscan detection using sequential hypothesis testing by Jaeyeon Jung, V. Paxson, A.W. Berger and H. Balakrishnan
+[^1]: "Fast portscan detection using sequential hypothesis testing" by Jaeyeon Jung, V. Paxson, A.W. Berger and H. Balakrishnan
