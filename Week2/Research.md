@@ -16,7 +16,7 @@ Given a data set, you may want to start counting how many occurrencies are there
 We might do the exact same passages but starting from the *joint frequency* of $n$ different attributes: we count the number of occurrencies where all the $n$ attributes where observed on the single unit at the same time. Defining all the possible joint frequencies we will obtain the *multivariate distribution*. Here we can see an example for $n= 2$ (*bivariate distribution*):\
 <img src="https://user-images.githubusercontent.com/105921751/194770960-af1ce04b-8754-478b-a954-a0e730a969a0.png" width="500">\
 To represent a multivariate distribution we need a matrix that has a dimension for every variable we are considering.\
-The *Marginal distribution* of the $k$-variate has the distribution of all the minors distributions (from $1$ to $k-1$) summing on the $k-th$ column.\ 
+The *Marginal distribution* of the $k$-variate has the distribution of all the minors distributions (from $1$ to $k-1$) summing on the $k^{th}$ column.\ 
 
 # App
 > Simple program with the random and timer objects, a csv parser and the computation of a univariate distribution
