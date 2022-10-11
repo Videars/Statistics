@@ -1,0 +1,13 @@
+C:\Users\Matt\source\repos\Distribution\Distribution\bin\Debug\Distribution.exe.config
+C:\Users\Matt\source\repos\Distribution\Distribution\bin\Debug\Distribution.exe
+C:\Users\Matt\source\repos\Distribution\Distribution\bin\Debug\Distribution.pdb
+C:\Users\Matt\source\repos\Distribution\Distribution\bin\Debug\LINQtoCSV.dll
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.csproj.AssemblyReference.cache
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.Form1.resources
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.Properties.Resources.resources
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.csproj.GenerateResource.cache
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.csproj.CopyComplete
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.exe
+C:\Users\Matt\source\repos\Distribution\Distribution\obj\Debug\Distribution.pdb
