@@ -65,5 +65,5 @@ The 2005 technical standard RFC 4180 formalizes the CSV file format and defines 
 
 The format can be processed by most programs that claim to read CSV files. The exceptions are *(a)* programs may not support line-breaks within quoted fields, *(b)* programs may confuse the optional header with data or interpret the first data line as an optional header, and *(c)* double-quotes in a field may not be parsed correctly automatically.
 
-[^1]: Notes
+[^1]: Class Notes
 [^2]: https://en.wikipedia.org/wiki/Comma-separated_values
