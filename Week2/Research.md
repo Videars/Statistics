@@ -23,7 +23,7 @@ The **Marginal distribution** of the $k$-variate has the distribution of all the
 # App
 > Simple program with the random and timer objects, a csv parser and the computation of a univariate distribution
 
-## Program with random and timer objects
+### Program with random and timer objects
 We start from creating the usual windows form with a button that if click will trigger some events and a rich text box that will output the results.
 
 <img width="500" alt="1 timer" src="https://user-images.githubusercontent.com/105921751/195165253-8fe49a93-8cef-4f63-a6c1-bf7a404b9267.png">
@@ -32,7 +32,7 @@ At the button click event the timer will starts and for every iteration the func
 
 <img width="500" alt="2 timer" src="https://user-images.githubusercontent.com/105921751/195165256-3ebac4f9-cff2-4d32-b4ce-90445e8fd5cd.png">
 
-## CSV file parser and Distribution computation
+### CSV file parser and Distribution computation
 For this part of the application we will need a csv file containing some data set to analyze. The structure of the code is a windows form with a starting button and a text box.
 
 <img width="500" alt="1" src="https://user-images.githubusercontent.com/105921751/195165255-4fbde283-7408-4108-973a-3f5bf1a6cc82.png">
