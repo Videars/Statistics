@@ -8,7 +8,7 @@ permalink: /Week2/research
 
 ---
 
-# Research
+# Research [^1]
 > Concept of distribution, Univariate and multivariate distributions, Conditional and Marginal distributions
 
 In the phase of processing and analyzing the data collected, the statistician uses a set of tools to gather as much as information as possible from the sample of units studied.\
@@ -33,7 +33,7 @@ For this part of the application we will need a csv file containing some data se
 As soon as the button is clicked the program will start the parsing phase: the csv file gets opened and we save the content of the columns in specific class attributes. Once we have parsed all the data, we can start computing the univariate distribution for the variables collected. In this case the data set contained a list of students and a collection of their geneders, height and weight. So the application divides the values for every single variable in 10 intervals and counts how many occurrencies there are for all the intervals considered. The output is printed out as a list with every interval and his respective frequency.\
 <img width="500" alt="2" src="https://user-images.githubusercontent.com/105921751/195165257-8a8d64e6-5976-493d-856f-bfdcc330d910.png">
 
-# Research on App
+# Research on App [^2]
 > csv protocol (RFL4180)
 
 A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format. A CSV file typically stores tabular data (numbers and text) in plain text, in which case each line will have the same number of fields.
@@ -64,3 +64,6 @@ The 2005 technical standard RFC 4180 formalizes the CSV file format and defines 
 * If double-quotes are used to enclose fields, then a double-quote in a field must be represented by two double-quote characters.
 
 The format can be processed by most programs that claim to read CSV files. The exceptions are *(a)* programs may not support line-breaks within quoted fields, *(b)* programs may confuse the optional header with data or interpret the first data line as an optional header, and *(c)* double-quotes in a field may not be parsed correctly automatically.
+
+[^1]: Notes
+[^2]: https://en.wikipedia.org/wiki/Comma-separated_values
