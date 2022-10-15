@@ -7,7 +7,7 @@
 
 
 ### Week 3: [Research and codes](https://videars.github.io/Week3/)
-> TBA
+> All types of frequencies and statistical indipendence. Analysis of a wireshark csv file. Survey on OnLine algorithms.
 
 
 ### Week 4: [Research and codes](https://videars.github.io/Week4/)
