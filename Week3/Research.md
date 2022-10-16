@@ -93,7 +93,7 @@ Because it does not know the whole input, an online algorithm is forced to make 
 
 The concept behind the mean is simple. The purpose of an average value is to find a single number to represent the typical value of an entire list of numbers of every kind. The quick and dirty tip to calculate the mean value of a sample is first adding up all the numbers in the sample and then dividing this total by the number of sample. This method might be inaccurate and not efficient to compute mean for a stream of data, so we can use an Online algorithm instead.
 
-### Knuth’s algorithm
+### Knuth’s algorithm [^3]
 This algorithm computes the mean iteratively. This means that at each step, the value for the mean computed with the first $n-1$ inputs it’s updated when the input $x_n$ is received. The formula used in this algorithm is the following:
 
 $$
@@ -121,3 +121,4 @@ The corresponding algorithm is the following:
 
 [^1]: Class Notes
 [^2]: https://en.wikipedia.org/wiki/Online_algorithm
+[^3]: https://mlblogblog.wordpress.com/2017/11/22/r2-the-best-algorithm-to-compute-the-online-mean/
