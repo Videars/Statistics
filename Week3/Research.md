@@ -87,6 +87,37 @@ Once the parsing is done, we can click the analyze button. The program will go t
 # Research on App
 > Survey on OnLine algorithms. In particular Knuth recursion for the computation of the arithmetic mean (average). 
 
+An **online algorithm**[^2] is one that can process its input piece-by-piece in a serial fashion, i.e., in the order that the input is fed to the algorithm, without having the entire input available from the start.
+
+Because it does not know the whole input, an online algorithm is forced to make decisions that may later turn out not to be optimal, and the study of online algorithms has focused on the quality of decision-making that is possible in this setting. Competitive analysis formalizes this idea by comparing the relative performance of an online and offline algorithm for the same problem instance. Specifically, the competitive ratio of an algorithm, is defined as the worst-case ratio of its cost divided by the optimal cost, over all possible inputs. The competitive ratio of an online problem is the best competitive ratio achieved by an online algorithm. Intuitively, the competitive ratio of an algorithm gives a measure on the quality of solutions produced by this algorithm, while the competitive ratio of a problem shows the importance of knowing the future for this problem.
+
+The concept behind the mean is simple. The purpose of an average value is to find a single number to represent the typical value of an entire list of numbers of every kind. The quick and dirty tip to calculate the mean value of a sample is first adding up all the numbers in the sample and then dividing this total by the number of sample. This method might be inaccurate and not efficient to compute mean for a stream of data, so we can use an Online algorithm instead.
+
+### Knuth’s algorithm
+This algorithm computes the mean iteratively. This means that at each step, the value for the mean computed with the first $n-1$ inputs it’s updated when the input $x_n$ is received. The formula used in this algorithm is the following:
+
+$$
+\overline x_n=\frac{(n-1)\overline x_{n-1} +x_n}{n}=\overline x_{n-1}+\frac{x_n-\overline x_{n-1}}{n}
+$$
+
+The corresponding algorithm is the following:
+
+    def online_mean(data):
+        n = 0
+        mean = M2 = 0.0
+
+        for x in data:
+            n += 1
+            delta = x - mean
+            mean += delta/n
+            delta2 = x - mean
+            M2 += delta*delta2
+
+        if n < 2:
+            return float('nan')
+        else:
+            return M2 / (n - 1)
 
 
 [^1]: Class Notes
+[^2]: https://en.wikipedia.org/wiki/Online_algorithm
