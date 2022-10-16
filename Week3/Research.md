@@ -47,11 +47,27 @@ In the table above, the marginal frequencies can be found using the bottom or fa
 In our example table, let's compute the marginal relative frequency of participants that chose "Football" as their favourite sport: this turns out to be $33/100 = 0.33 = 33$%
 
 ### Statistical Indipendence
-**Statistical independence** is a concept in probability theory. Two events $A$ and $B$ are statistical independent if and only if their joint probability can be factorized into their marginal probabilities, i.e., $P(A ∩ B) = P(A)P(B)$. If two events $A$ and $B$ are statistical independent, then the conditional probability equals the marginal probability: $P(A|B) = P(A)$ and $P(B|A) = P(B)$.
+**Statistical independence** is a concept in probability theory. Two events $A$ and $B$ are statistical independent if and only if their joint probability can be factorized into their marginal probabilities, i.e., $P(A ∩ B) = P(A)P(B)$. If two events $A$ and $B$ are statistical independent, then the conditional probability equals the marginal probability: $P(A\mid B) = P(A)$ and $P(B\mid A) = P(B)$.
 
-So according to the next table
+So according to the next table:
 
-if we define the joint frequency as $f_{ij}$, the marginal frequency as $f_{i\cdot}$ or $f_{\cdot j}$, and the conditional frequency as $f_{j|i}$, the following relations are true:
+<img width="500" alt="4" src="https://user-images.githubusercontent.com/105921751/196037694-0aa1430d-bd7e-4e7d-b209-abb55bf4f257.jpg">
+
+if we define the joint frequency as $f_{ij}$, the marginal frequency as $f_{i\cdot}$ or $f_{\cdot j}$, and the conditional frequency as $f_{j\mid i}$, the following relations are true:
+
+$$
+f_{ij}=freq(X=X_i \wedge Y=Y_j)=\frac{n_{ij}}{n}
+$$
+
+$$
+f_{i\cdot}=\sum_{j=1}^{c}\frac{n_{ij}}{n}=\frac{n_{i\cdot}}{n}
+$$
+
+$$
+f_{j\mid i}=\frac{f_{ij}}{f_{i\cdot}}=\frac{freq(X=X_i \wedge Y=Y_j)}{freq(X=X_i)}=\frac{n_{ij}}{n_{i\cdot}}
+$$
+
+In conclusion the random variables $X$ and $Y$ are indipendent if $fr(X\mid Y)=fr(X)$ or if $fr(X\wedge Y)=fr(X)\cdot fr(Y)$.
 
 # App
 > Create a distribution from the data obtained by the program wireshark by reading the csv file generated.
