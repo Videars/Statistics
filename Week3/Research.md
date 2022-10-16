@@ -35,7 +35,7 @@ A **joint relative frequency** tells us the frequency of one variable relative t
 
 To answer this, we will only consider the column that contains football as the favorite sport. We’ll then take the number of males who prefer football and divide by the total number of respondents who preferred football.
 
-This turns out to be $20/33 = 0.606 = 60.6$%
+This turns out to be $20/33 = 0.606 = 60.6$%.
 In other words, $60.6$% of all survey respondents who prefer football are male.
 
 #### Marginal Relative Frequency
