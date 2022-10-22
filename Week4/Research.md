@@ -11,13 +11,17 @@ permalink: /Week4/research
 # Research [^1]
 > Paralles between the properties of the relative frequency and the axioms for probability measure. Discuss some concrete examples of measure space. Illustrate how measure theory provides the mathematical foundation for probability.
 
-The Relative frequency has some basic properties:
+Relative frequency has some basic properties. Following the illustration below, we can enumerate them as:
+
+<img width="500" alt="venn" src="https://user-images.githubusercontent.com/105921751/197346577-2b79d58f-6a69-4a19-aa29-946fbbc6621e.jpg">
 
 + $0\leq f_A \leq 1$
 + $f_{A \cup B} = f_A + f_B $ in case $A$ and $B$ are disjoint
 + $f_{A \cup B} = f_A + f_B - f_{A \cap B}$
 + f( \emptyset ) = 0
 + f(P) = 1
+
+Now why are they useful? The concepts of Probability and Frequency are actually very close (so that we can define one of them through the other) and that's why they have some properties in common. Let's see the definition of probability to spot the similarities between the two. 
 
 Probability is the branch of mathematics concerning numerical descriptions of how likely an event is to occur, or how likely it is that a proposition is true. The probability of an event is a number between 0 and 1, where, roughly speaking, 0 indicates impossibility of the event and 1 indicates certainty. The higher the probability of an event, the more likely it is that the event will occur.
 
@@ -51,5 +55,13 @@ $(\Omega , \epsilon, p)$ in case of **Coin Toss**:
 $\Omega = \\{ T, C \\} $
 
 $\epsilon = \\{ \Omega, \emptyset , T, C, \bar{T}, \bar{C}, T \cup C, T \cap C \\} $
+
+$(\Omega , \epsilon, p)$ in case of **Card extraction**:
+
+if we have a standard deck with 52 cards and 4 seeds like so (H=hearts, D=diamonds, C=clubs, S=spades) the we will have:
+
+$\Omega = \\{ AH,2H,3H,4H,5H,6H,7H,8H,9H,10H,JH,QH,KH, AD,2D,3D,4D,5D,6D,7D,8D,9D,10D,JD,QD,KD, AC,2C,3C,4C,5C,6C,7C,8C,9C,10C,JC,QC,KC, AS,2S,3S,4S,5S,6S,7S,8S,9S,10S,JS,QS,KS \\} $
+
+$\epsilon = \\{ \Omega, \emptyset , AH, 2H, ..., \bar{AH}, \bar{2H}, AH \cup 2H, ..., AH \cap 2H, ... \\} $
 
 [^1]: Class Notes
