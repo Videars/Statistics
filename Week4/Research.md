@@ -82,7 +82,7 @@ $$\mu (E)=\mu (E\cup \varnothing )=\mu (E)+\mu (\varnothing ),$$
 
 and therefore $\mu (\varnothing )=0$.
 
-The pair $(X,\Sigma )$ is called a measurable space, and the members of $\Sigma$  are called measurable sets.
+The pair $(X,\Sigma )$ is called a measurable space, and the members of $\Sigma$ are called measurable sets.
 
 A triple $(X,\Sigma ,\mu )$ is called a measure space. A probability measure is a measure with total measure one – that is, $\mu (X)=1$. A probability space is a measure space with a probability measure.
 
