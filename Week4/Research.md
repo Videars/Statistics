@@ -72,13 +72,13 @@ Let $X$ be a set and $\Sigma$  a $\sigma$ -algebra over $X$. A set function $\mu
 
 Non-negativity: For all $E$ in $\Sigma$ , we have $\mu (E)\geq 0$.
 Null empty set: $\mu (\varnothing )=0$.
-Countable additivity (or $\sigma$ -additivity): For all countable collections $ \\{ E_{k}\\}_ {k=1}^{\infty} $ of pairwise disjoint sets in $\Sigma$,
+Countable additivity (or $\sigma$ -additivity): For all countable collections $ \\{ E_{k}\\} $ of pairwise disjoint sets in $\Sigma$,
 
-$$\mu \left(\bigcup_{k=1}^{\infty }E_{k}\right)=\sum_{k=1}^{\infty }\mu (E_{k})$$.
+$$\mu \left(\bigcup_{k=1}^{\infty }E_{k}\right)=\sum_{k=1}^{\infty }\mu (E_{k}).$$
 
 If at least one set $E$ has finite measure, then the requirement that $\mu (\varnothing )=0$ is met automatically. Indeed, by countable additivity,
 
-$$\mu (E)=\mu (E\cup \varnothing )=\mu (E)+\mu (\varnothing )$$,
+$$\mu (E)=\mu (E\cup \varnothing )=\mu (E)+\mu (\varnothing ),$$
 
 and therefore $\mu (\varnothing )=0$.
 
