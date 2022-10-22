@@ -11,7 +11,7 @@
 
 
 ### Week 4: [Research and codes](https://videars.github.io/Week4/)
-> TBA
+> Paralles between the properties of the relative frequency and the axioms for probability measure. Dynamic chart of the Absolute, Relative and Normalized frequencies of coin tosses.
 
 
 ### Week 5: [Research and codes](https://videars.github.io/Week5/)
