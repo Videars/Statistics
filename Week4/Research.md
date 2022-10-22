@@ -46,7 +46,7 @@ Any countable sequence of disjoint sets (synonymous with mutually exclusive even
 
 ### Probability Space examples
 
-$(\Omega , \epsilon, p)$ in case of ** COIN TOSS **:
+$(\Omega , \epsilon, p)$ in case of **Coin Toss**:
 
 $\Omega = \\{ T, C \\} $
 
