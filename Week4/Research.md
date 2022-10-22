@@ -88,5 +88,14 @@ The pair $(X,\Sigma )$ is called a measurable space, and the members of $\Sigma$
 
 A triple $(X,\Sigma ,\mu )$ is called a measure space. A probability measure is a measure with total measure one – that is, $\mu (X)=1$. A probability space is a measure space with a probability measure.
 
+# Application
+
+> Simulate a sequence of coin tosses (0 for success, 1 for failure) where the probability of success is a parameter and draw a dynamic chart of the Absolute, Relative and Normalized frequencies.
+
+Let's start with simulating the coin tosses with the random tool. For every toss, we save the result in a list and at the end of the simulation we will print the lists obtained as a line chart using the bitmap tool. Here is a video of how the app works.
+
+https://user-images.githubusercontent.com/105921751/197349456-138a8c9d-a00d-4841-a363-af5b06bd26dc.mp4
+
+
 [^1]: Class Notes
 [^2]: https://en.wikipedia.org/wiki/Measure_(mathematics)
