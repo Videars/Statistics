@@ -64,14 +64,16 @@ $\Omega = \\{ AH,2H,...,JH,QH,KH, AD,2D,...,KD, AC,...,KC, AS,...,KS \\} $
 
 $\epsilon = \\{ \Omega, \emptyset , AH, 2H, ..., \bar{AH}, \bar{2H}, AH \cup 2H, ..., AH \cap 2H, ... \\} $
 
-### Measure theory
+### Measure theory [^2]
 
 The probability theory (and the Golmogorov's axioms) has his foundation on the measure theory.
 
 Let $X$ be a set and $\Sigma$  a $\sigma$ -algebra over $X$. A set function $\mu$  from $\Sigma$  to the extended real number line is called a measure if it satisfies the following properties:
 
 **Non-negativity**: For all $E$ in $\Sigma$ , we have $\mu (E)\geq 0$.
+
 **Null empty set**: $\mu (\varnothing )=0$.
+
 **Countable additivity** (or $\sigma$ -additivity): For all countable collections $\\{ E_{k}\\}$ of pairwise disjoint sets in $\Sigma$,
 
 $$\mu \left(\bigcup_{k=1}^{\infty }E_{k}\right)=\sum_{k=1}^{\infty }\mu (E_{k}).$$
@@ -87,3 +89,4 @@ The pair $(X,\Sigma )$ is called a measurable space, and the members of $\Sigma$
 A triple $(X,\Sigma ,\mu )$ is called a measure space. A probability measure is a measure with total measure one – that is, $\mu (X)=1$. A probability space is a measure space with a probability measure.
 
 [^1]: Class Notes
+[^2]: https://en.wikipedia.org/wiki/Measure_(mathematics)
