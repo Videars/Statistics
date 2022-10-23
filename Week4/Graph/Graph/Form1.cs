@@ -64,7 +64,7 @@ namespace Graph
                     toss++;
                 }
                 rfreq = (int)(toss * trials / (i + 1));
-                nfreq = (int)(toss * ((trials) ^ (1 / 2)) / ((i + 1) ^ (1 / 2)));
+                nfreq = (int)(toss * Math.Sqrt(trials) / Math.Sqrt(i + 1));
 
                 Point p = new Point();
                 Point rp = new Point();
