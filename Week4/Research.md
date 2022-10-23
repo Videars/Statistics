@@ -94,7 +94,7 @@ A triple $(X,\Sigma ,\mu )$ is called a measure space. A probability measure is 
 
 Let's start with simulating the coin tosses with the random tool. For every toss, we save the result in a list and at the end of the simulation we will print the lists obtained as a line chart using the bitmap tool. Here is a video of how the app works.
 
-<iframe width="750" height="500" src="https://user-images.githubusercontent.com/105921751/197349456-138a8c9d-a00d-4841-a363-af5b06bd26dc.mp4" frameborder="0" allowfullscreen></iframe>
+<iframe width="750" height="500" src="https://user-images.githubusercontent.com/105921751/197398964-1201eeb7-5b74-4559-8e05-363421425eb4.mp4" frameborder="0" allowfullscreen></iframe>
 
 
 [^1]: Class Notes
