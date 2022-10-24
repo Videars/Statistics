@@ -96,6 +96,9 @@ Let's start with simulating the coin tosses with the random tool. For every toss
 
 <iframe width="750" height="500" src="https://user-images.githubusercontent.com/105921751/197398964-1201eeb7-5b74-4559-8e05-363421425eb4.mp4" frameborder="0" allowfullscreen></iframe>
 
+# Research on app
+
+> Give a simple introduction to graphics in the .NET environment. How to create a bitmap and a chart on it. Explain in simple terms how to get device coordinates from world coordinates.
 
 [^1]: Class Notes
 [^2]: https://en.wikipedia.org/wiki/Measure_(mathematics)
