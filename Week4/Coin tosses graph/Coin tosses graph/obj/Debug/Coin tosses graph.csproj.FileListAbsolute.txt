@@ -1,0 +1,11 @@
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\bin\Debug\Coin tosses graph.exe.config
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\bin\Debug\Coin tosses graph.exe
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\bin\Debug\Coin tosses graph.pdb
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\obj\Debug\Coin tosses graph.csproj.AssemblyReference.cache
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\obj\Debug\Coin tosses graph.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\obj\Debug\Coin_tosses_graph.Form1.resources
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\obj\Debug\Coin_tosses_graph.Properties.Resources.resources
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\obj\Debug\Coin tosses graph.csproj.GenerateResource.cache
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\obj\Debug\Coin tosses graph.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\obj\Debug\Coin tosses graph.exe
+C:\Users\Matt\source\repos\Coin tosses graph\Coin tosses graph\obj\Debug\Coin tosses graph.pdb

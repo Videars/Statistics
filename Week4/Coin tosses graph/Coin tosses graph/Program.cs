@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Graph
+namespace Coin_tosses_graph
 {
     internal static class Program
     {

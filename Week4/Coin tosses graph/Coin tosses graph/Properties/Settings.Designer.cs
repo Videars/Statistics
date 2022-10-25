@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Graph.Properties
+namespace Coin_tosses_graph.Properties
 {
 
 
