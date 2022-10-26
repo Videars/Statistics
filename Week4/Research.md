@@ -100,5 +100,59 @@ Let's start with simulating the coin tosses with the random tool. For every toss
 
 > Give a simple introduction to graphics in the .NET environment. How to create a bitmap and a chart on it. Explain in simple terms how to get device coordinates from world coordinates.
 
+## Introduction to graphics
+
+To create graphs in the .NET framework, we need the following objects:
+
++ A PictureBox
++ A Bitmap
++ A Graphics object
+
+#### Picturebox [3]
+
+The PictureBox control is used for displaying images on the form. The Image property of the control allows you to set an image both at design time or at run time.
+You can set the Image property to the Image you want to display and programmatically change the image displayed in a picture box, which is particularly useful when you use a single form to display different pieces of information.
+
+#### Bitmap [4]
+
+A Bitmap is an object used to work with images defined by pixel data. The Bitmap object can be used to open an already existing image, modify it changing its pixels, or it's possible to create an entirely new Bitmap just specifying the size (creating a blank modifiable image).
+
+#### Graphics [5]
+
+The Graphics class provides methods for drawing objects to the display device. A Graphics is associated with a specific device context.
+
+You can obtain a Graphics object by calling the Control.CreateGraphics method on an object that inherits from System.Windows.Forms.Control, or by handling a control's Control.Paint event and accessing the Graphics property of the System.Windows.Forms.PaintEventArgs class. You can also create a Graphics object from an image by using the FromImage method.
+
+You can draw many different shapes and lines by using a graphics methods like: DrawLine, DrawArc, DrawClosedCurve, DrawPolygon and DrawRectangle.
+You can also draw images and icons by using the DrawImage and DrawIcon methods, respectively.
+In addition, you can manipulate the coordinate system used by the Graphics object. 
+
+Here is a code sample on how to use this obejects together and create a blank modifiable image:
+
+    Bitmap b;
+    Graphics g;
+
+    b =  new Bitmap(pictureBox1.Width, pictureBox1.Height);
+    g = Graphics.FromImage(b);
+
+    pictureBox1.Image = b;
+
+## Coordinates transformation
+
+When we draw a chart on a bitmap, using the methods provided by a Graphics object, we need to keep into account the fact that the real world coordinates of the points that compose our chart can’t be reported in the image as they are: the first thing we need to do is to convert the cartesian coordinates that we have (that is a couple of real numbers) into coordinates that can be read by a bitmap (couple of integers number) and then change the origin of the plane from bottom left to top left (where is actually located the origin for a bitmap image). So the conversion to do is the following:
+
+$$
+X_{new} = \frac{X_{old}-X_{min}}{X_{max}-X_{min}}W
+$$
+
+$$
+Y_{new} = H-H\frac{Y_{old}-Y_{min}}{Y_{max}-Y_{min}}
+$$
+
+where $H$ and $W$ are respectively the height and width of the image.
+
 [^1]: Class Notes
 [^2]: https://en.wikipedia.org/wiki/Measure_(mathematics)
+[^3]: https://learn.microsoft.com/it-it/dotnet/api/system.windows.forms.picturebox
+[^4]: https://learn.microsoft.com/en-us/dotnet/api/system.drawing.bitmap
+[^5]: https://learn.microsoft.com/en-us/dotnet/api/system.drawing.graphics
