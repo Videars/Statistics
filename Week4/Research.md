@@ -108,16 +108,16 @@ To create graphs in the .NET framework, we need the following objects:
 + A Bitmap
 + A Graphics object
 
-#### Picturebox [3]
+#### Picturebox [^3]
 
 The PictureBox control is used for displaying images on the form. The Image property of the control allows you to set an image both at design time or at run time.
 You can set the Image property to the Image you want to display and programmatically change the image displayed in a picture box, which is particularly useful when you use a single form to display different pieces of information.
 
-#### Bitmap [4]
+#### Bitmap [^4]
 
 A Bitmap is an object used to work with images defined by pixel data. The Bitmap object can be used to open an already existing image, modify it changing its pixels, or it's possible to create an entirely new Bitmap just specifying the size (creating a blank modifiable image).
 
-#### Graphics [5]
+#### Graphics [^5]
 
 The Graphics class provides methods for drawing objects to the display device. A Graphics is associated with a specific device context.
 
