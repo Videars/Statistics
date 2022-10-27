@@ -23,6 +23,6 @@ $$
 and since $\frac{n_j}{n}=f_j$ is the frequency of the $j-th$ variable then:
 
 $$
-mean(X)=\sum_{j=1}^{k}x_j * f_j
+mean(X)=\sum_{j=1}^{k}x_j f_j
 $$
 
