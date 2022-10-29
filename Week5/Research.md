@@ -9,6 +9,7 @@ permalink: /Week5/research
 ---
 
 # Research
+
 > Explain all possible derivation of the arithmetic mean and in general of the other common types of average: harmonic, geometric and power mean. Illustrate the difference between "mathematical convergence" and "convergence" in probability.
 
 ### Mean
