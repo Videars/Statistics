@@ -91,7 +91,7 @@ We would like to be very restrictive on our criterion for deciding whether $X_n$
 The variable $X$ is called the probability limit of the sequence and convergence is indicated by $X_n\to_{p}X$
 
 
-[^1]: [https://en.wikipedia.org/wiki/Generalized_mean]
-[^2]: [https://en.wikipedia.org/wiki/Arithmetic_mean]
-[^3]: [https://en.wikipedia.org/wiki/Limit_(mathematics)]
-[^4]: [https://www.statlect.com/asymptotic-theory/convergence-in-probability]
+[^1]: https://en.wikipedia.org/wiki/Generalized_mean
+[^2]: https://en.wikipedia.org/wiki/Arithmetic_mean
+[^3]: https://en.wikipedia.org/wiki/Limit_(mathematics)
+[^4]: https://www.statlect.com/asymptotic-theory/convergence-in-probability
