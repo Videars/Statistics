@@ -52,7 +52,7 @@ The arithmetic mean [^2] has several properties that make it useful, especially 
 #### Limit of a sequence (math limit) [^3]
 Given $\\{x_n\\}$ a sequence of real numbers, we say that $\lim_{n\to\infty}x_n=a$ with $a\in \mathbb{R}$ if for each $\epsilon >0$ arbitrary small, $\exists n_0 \in \mathbb{N}$ so that $\|x_n-a\|<\epsilon$ for each $n>n_0$.
 
-![limit](https://user-images.githubusercontent.com/105921751/198825805-1aef0777-3108-442c-a6cd-c85e73cf68e1.jpg)
+<img width="500" alt="limit" src="https://user-images.githubusercontent.com/105921751/198825805-1aef0777-3108-442c-a6cd-c85e73cf68e1.jpg">
 
 ### Convergence in Probability [^4]
 
