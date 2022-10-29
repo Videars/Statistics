@@ -27,7 +27,7 @@ A few particular values of $p$ yield special cases with their own names:
 Harmonic mean (for $p=-1$):
 
 $$
-M_{-1}(x_{1},\dots ,x_{n})={\frac {n}{{\frac {1}{x_{1}}}+\dots +{\frac {1}{x_{n}}}}}
+M_{-1}(x_{1},\dots ,x_{n})={\frac{n}{\frac{1}{x_{1}}+\dots +\frac {1}{x_{n}}}}
 $$
 
 Geometric mean (for $p=0$):
