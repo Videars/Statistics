@@ -15,7 +15,7 @@
 
 
 ### Week 5: [Research and codes](https://videars.github.io/Week5/)
-> All types of mean and convergence in probability. Draw of a dynamic rectangle with an hinstogram inside.
+> All types of mean and convergence in probability. Draw of a dynamic rectangle with an histogram inside.
 
 
 ### Week 6: [Research and codes](https://videars.github.io/Week6/)
