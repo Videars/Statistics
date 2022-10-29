@@ -19,7 +19,7 @@ There are several statistical quantities called means, e.g. arithmetic mean, har
 If $p$ is a non-zero real number, and $x_{1},\dots ,x_{n}$ are positive real numbers, then the generalized mean or power mean with exponent $p$ of these positive real numbers is:
 
 $$
-M_{p}(x_{1},\dots ,x_{n})=\left({\frac {1}{n}}\sum_{i=1}^{n}x_{i}^{p}\right)^{{1}/{p}}.
+M_{p}(x_{1},\dots ,x_{n})=\left({\frac {1}{n}}\sum_{i=1}^{n}x_{i}^{p}\right)^{1}/{p}}.
 $$
 
 A few particular values of $p$ yield special cases with their own names:
