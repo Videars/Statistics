@@ -65,13 +65,13 @@ Take a random variable $X$ and a strictly positive number $\epsilon$.
 Suppose that we consider $X_n$ far from $X$ when
 
 $$
-|X_n-X|>\epsilon
+\|X_n-X\|>\epsilon
 $$
 
 Then, the probability
 
 $$
-P(|X_n-X|>\epsilon)
+P(\|X_n-X\|>\epsilon)
 $$
 
 is the probability that $X_n$ is far from $X$.
@@ -81,10 +81,10 @@ The idea is that: if $\\{X_n\\}$ converges to $X$, the probability that $X_n$ an
 In other words, we should have
 
 $$
-\lim_{n\to\infty}P(|X_n-X|>\epsilon)=0
+\lim_{n\to\infty}P(\|X_n-X\|>\epsilon)=0
 $$
 
-Note that now $P(|X_n-X|>\epsilon)$ is a sequence of real numbers. Therefore, the limit in the above equation is the usual limit of a sequence of real numbers.
+Note that now $P(\|X_n-X\|>\epsilon)$ is a sequence of real numbers. Therefore, the limit in the above equation is the usual limit of a sequence of real numbers.
 
 We would like to be very restrictive on our criterion for deciding whether $X_n$ is far from $X$. As a consequence, the condition should be satisfied for any, arbitrarily small, $\epsilon$.
 
