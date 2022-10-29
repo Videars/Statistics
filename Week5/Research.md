@@ -54,7 +54,7 @@ Given $\\{x_n\\}$ a sequence of real numbers, we say that $\lim_{n\to\infty}x_n=
 
 <img width="500" alt="limit" src="https://user-images.githubusercontent.com/105921751/198825805-1aef0777-3108-442c-a6cd-c85e73cf68e1.jpg">
 
-### Convergence in Probability [^4]
+#### Convergence in Probability [^4]
 
 The concept of convergence in probability is based on the following intuition: two random variables are "close to each other" if there is a high probability that their difference is very small.
 
