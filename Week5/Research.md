@@ -90,6 +90,20 @@ We would like to be very restrictive on our criterion for deciding whether $X_n$
 
 The variable $X$ is called the probability limit of the sequence and convergence is indicated by $X_n\to_{p}X$
 
+### Descriptive vs Inferential Statistics [^5]
+
+Descriptive statistics are used to describe the characteristics or features of a dataset. The term ‘descriptive statistics’ can be used to describe both individual quantitative observations (also known as ‘summary statistics’) as well as the overall process of obtaining insights from these data. We can use descriptive statistics to describe both an entire population or an individual sample. Because they are merely explanatory, descriptive statistics are not heavily concerned with the differences between the two types of data.
+
+So what measures do descriptive statistics look at? While there are many, important ones include:
+
++ Distribution
++ Central tendency
++ Variability
+
+Meanwhile, inferential statistics focus on making generalizations about a larger population based on a representative sample of that population. Because inferential statistics focuses on making predictions (rather than stating facts) its results are usually in the form of a probability.
+
+Unsurprisingly, the accuracy of inferential statistics relies heavily on the sample data being both accurate and representative of the larger population. To do this involves obtaining a random sample.
+
 # Application
 
 ### Move and Zoom Rectangle
@@ -109,3 +123,4 @@ In this application we parse a wireshark csv file and compute the distribution o
 [^2]: https://en.wikipedia.org/wiki/Arithmetic_mean
 [^3]: https://en.wikipedia.org/wiki/Limit_(mathematics)
 [^4]: https://www.statlect.com/asymptotic-theory/convergence-in-probability
+[^5]: https://careerfoundry.com/en/blog/data-analytics/inferential-vs-descriptive-statistics/
