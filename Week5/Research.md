@@ -106,7 +106,7 @@ Unsurprisingly, the accuracy of inferential statistics relies heavily on the sam
 It uses techniques like:
 + Hypothesis testing
 + Confidence intervals 
-+ Regression and correlation analysis.
++ Regression and correlation analysis
 
 # Application
 
