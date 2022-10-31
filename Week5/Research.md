@@ -103,6 +103,10 @@ So what measures do descriptive statistics look at? While there are many, import
 Meanwhile, inferential statistics focus on making generalizations about a larger population based on a representative sample of that population. Because inferential statistics focuses on making predictions (rather than stating facts) its results are usually in the form of a probability.
 
 Unsurprisingly, the accuracy of inferential statistics relies heavily on the sample data being both accurate and representative of the larger population. To do this involves obtaining a random sample.
+It uses techniques like:
++ Hypothesis testing
++ Confidence intervals 
++ Regression and correlation analysis.
 
 # Application
 
