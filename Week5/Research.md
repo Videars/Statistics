@@ -90,6 +90,20 @@ We would like to be very restrictive on our criterion for deciding whether $X_n$
 
 The variable $X$ is called the probability limit of the sequence and convergence is indicated by $X_n\to_{p}X$
 
+# Application
+
+### Move and Zoom Rectangle
+
+In this application we print out a rectangle in a picture box and we send the rectangle object to an external function that it is able to track our mouse pointer and his wheel to apply basic spatial transformations like drag, zoom and resize.
+
+<iframe width="750" height="500" src="https://user-images.githubusercontent.com/105921751/198978330-86319ef5-c753-4abf-95da-3a67c5fc77d9.mp4" frameborder="0" allowfullscreen></iframe>
+
+### Dynamic Chart
+
+In this application we parse a wireshark csv file and compute the distribution of the protocol types of the packets inside it. Once we have obtained the distribution we compute the histogram associated and we print it out on the resizable rectangle oof the previous app. There's even the option of printing the vertical histogram.
+
+<iframe width="750" height="500" src="https://user-images.githubusercontent.com/105921751/198979767-82d310f2-c868-45a6-966a-edd451c93413.mp4" frameborder="0" allowfullscreen></iframe>
+
 
 [^1]: https://en.wikipedia.org/wiki/Generalized_mean
 [^2]: https://en.wikipedia.org/wiki/Arithmetic_mean
