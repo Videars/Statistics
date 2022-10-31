@@ -1,0 +1,17 @@
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\bin\Debug\net6.0-windows\DynamicChart.exe
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\bin\Debug\net6.0-windows\DynamicChart.deps.json
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\bin\Debug\net6.0-windows\DynamicChart.runtimeconfig.json
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\bin\Debug\net6.0-windows\DynamicChart.dll
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\bin\Debug\net6.0-windows\DynamicChart.pdb
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.csproj.AssemblyReference.cache
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.Form1.resources
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.csproj.GenerateResource.cache
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.AssemblyInfo.cs
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.dll
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\refint\DynamicChart.dll
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.pdb
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\DynamicChart.genruntimeconfig.cache
+C:\Users\Matt\source\repos\DynamicChart\DynamicChart\obj\Debug\net6.0-windows\ref\DynamicChart.dll

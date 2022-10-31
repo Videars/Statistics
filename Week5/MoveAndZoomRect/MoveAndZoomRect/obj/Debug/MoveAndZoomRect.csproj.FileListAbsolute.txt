@@ -1,0 +1,11 @@
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\bin\Debug\MoveAndZoomRect.exe.config
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\bin\Debug\MoveAndZoomRect.exe
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\bin\Debug\MoveAndZoomRect.pdb
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\obj\Debug\MoveAndZoomRect.csproj.AssemblyReference.cache
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\obj\Debug\MoveAndZoomRect.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\obj\Debug\MoveAndZoomRect.Form1.resources
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\obj\Debug\MoveAndZoomRect.Properties.Resources.resources
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\obj\Debug\MoveAndZoomRect.csproj.GenerateResource.cache
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\obj\Debug\MoveAndZoomRect.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\obj\Debug\MoveAndZoomRect.exe
+C:\Users\Matt\source\repos\MoveAndZoomRect\MoveAndZoomRect\obj\Debug\MoveAndZoomRect.pdb
