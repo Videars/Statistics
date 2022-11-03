@@ -3,19 +3,19 @@
 ### Inferential statistic
 In the inferential statistics we want to study an unknown popolation starting from a known sample.
 
-In statistics by population (or statistical collective or aggregate ) we mean the set of elements that are the object of study, or the set of units (called statistical units ) on which the survey of the methods with which the phenomenon studied occurs. These units all have at least one common characteristic, which is accurately defined in order to delimit their whole.
+In statistics by population (or statistical collective or aggregate ) we mean the set of elements that are the object of study, or the set of units (called statistical units ) on which the phenomenon studied occurs. These units all have at least one common characteristic, which is accurately defined in order to delimit their whole.
 
 In Inferential statistics we have two levels of study:
 
 + Theorical: the level of the unknown and of what we want to determine informations about.
-+ Empirical: the known level in which we find the empirical sample.
++ Empirical: the level of the known in which we find the empirical sample.
 
 In the empirical level we can do observation and measures, compute the frequency and obtain an empirical distribution of a general attribute $X$.
 The inference induction is the process of determine the probability starting from the frequence of an attribute $X$.
 
 In the theoretical layer, for each attribute $X$ there's a theoretical distribution (that might be continous or descrete). The empirical counterpart of the theoretical distribution is called Sampling distribution:
 
-Sampling distribution or finite-sample distribution is the probability distribution of a given random-sample-based statistic. If an arbitrarily large number of samples, each involving multiple observations (data points), were separately used in order to compute one value of a statistic (such as, for example, the sample mean or sample variance) for each sample, then the sampling distribution is the probability distribution of the values that the statistic takes on. In many contexts, only one sample is observed, but the sampling distribution can be found theoretically.
+Sampling distribution or finite-sample distribution is the probability distribution of a given random-sample-based statistic. If an arbitrarily large number of samples, each involving multiple observations (data points), were separately used in order to compute one value of a statistic (such as, for example, the sample mean or sample variance) for each sample, then the sampling distribution is the probability distribution of the values that the statistic takes on.
 
 ### Expected value and variance
 
