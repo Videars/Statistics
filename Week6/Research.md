@@ -13,7 +13,7 @@ permalink: /Week6/research
 ### Inferential statistic
 In the inferential statistics we want to study an unknown popolation starting from a known sample.
 
-In statistics by population (or statistical collective or aggregate ) we mean the set of elements that are the object of study, or the set of statistical units on which the phenomenon studied occurs. These units all have at least one common characteristic, which is accurately defined in order to delimit their whole.
+In statistics by population [^1] (or statistical collective or aggregate ) we mean the set of elements that are the object of study, or the set of statistical units on which the phenomenon studied occurs. These units all have at least one common characteristic, which is accurately defined in order to delimit their whole.
 
 In Inferential statistics we have two levels of study:
 
@@ -25,7 +25,7 @@ The inference induction is the process of determine the probability starting fro
 
 In the theoretical layer, for each attribute $X$ there's a theoretical distribution (that might be continous or descrete). The empirical counterpart of the theoretical distribution is called Sampling distribution:
 
-Sampling distribution or finite-sample distribution is the probability distribution of a given random-sample-based statistic. If an arbitrarily large number of samples, each involving multiple observations (data points), were separately used in order to compute one value of a statistic (such as, for example, the sample mean or sample variance) for each sample, then the sampling distribution is the probability distribution of the values that the statistic takes on.
+Sampling distribution [^2] or finite-sample distribution is the probability distribution of a given random-sample-based statistic. If an arbitrarily large number of samples, each involving multiple observations (data points), were separately used in order to compute one value of a statistic (such as, for example, the sample mean or sample variance) for each sample, then the sampling distribution is the probability distribution of the values that the statistic takes on.
 
 ### Expected value and variance of the sampling mean
 
@@ -37,7 +37,7 @@ $$
 
 So the sample mean $\bar{X}$ from a group of observations is an estimate of the population mean.
 
-Let's compute the expected value and the variance of the sample mean:
+Let's compute the expected value and the variance of the sample mean [^3]:
 
 $$
 E(\bar{X})=E(\frac{\sum_iX_i}{n})=\frac{1}{n}\sum_iE(X_i)=\frac{1}{n}nE(X)=E(X)
@@ -57,7 +57,7 @@ $$
 S_2=\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2
 $$
 
-Let's compute the expected value and the variance of the sample variance:
+Let's compute the expected value [^4] and the variance [^5] of the sample variance:
 
 $$
 E(S_2)=E(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{n-1}{n}\sigma ^2
@@ -68,3 +68,10 @@ Var(S_2)=Var(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{\mu_4}{n}-\frac{\sigm
 $$
 
 where $\mu_4=E((X-\bar{X})^4)$ is the fourth central moment of $X$.
+
+
+[^1]: https://en.wikipedia.org/wiki/Statistical_population
+[^2]: https://en.wikipedia.org/wiki/Sampling_distribution
+[^3]: http://www.stat.yale.edu/Courses/1997-98/101/sampmn.htm
+[^4]: https://en.wikipedia.org/wiki/Variance
+[^5]: https://math.stackexchange.com/questions/72975/variance-of-sample-variance
