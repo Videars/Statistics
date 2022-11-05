@@ -40,7 +40,7 @@ So the sample mean $\bar{X}$ from a group of observations is an estimate of the 
 Let's compute the expected value and the variance of the sample mean:
 
 $$
-E\[\bar{X}\]=E\[\frac{\sum_iX_i}{n}\]=\frac{1}{n}\sum_iE\[X_i\]=\frac{1}{n}nE\[X\]=E\[X\]
+E(\bar{X})=E(\frac{\sum_iX_i}{n})=\frac{1}{n}\sum_iE(X_i)=\frac{1}{n}nE(X)=E(X)
 $$
 
 $$
@@ -60,11 +60,11 @@ $$
 Let's compute the expected value and the variance of the sample variance:
 
 $$
-E\[S_2\]=E\[\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2\]=\frac{n-1}{n}\sigma ^2
+E(S_2)=E(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{n-1}{n}\sigma ^2
 $$
 
 $$
 Var(S_2)=Var(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{\mu_4}{n}-\frac{\sigma ^4(n-3)}{n(n-1)}
 $$
 
-where $\mu_4=E\[(X-\bar{X})^4\]$ is the fourth central moment of $X$.
+where $\mu_4=E((X-\bar{X})^4)$ is the fourth central moment of $X$.
