@@ -47,7 +47,7 @@ $$
 Var(\bar{X})=Var(\frac{\sum_i X_i}{n})=\frac{1}{n^2}Var(\sum_i X_i)=\frac{1}{n^2}nVar(X)=\frac{\sigma ^2}{n}
 $$
 
-We can see that the expected value of the sampling mean is equal to the expected value of the population distribution (as we were expecting intuitivelly) and that the variance of the sampling mean is equal to the standard deviation over $n$ (that tends to zero for large $n$).
+We can see that the expected value of the sampling mean is equal to the mean value computed on the population (as we were expecting intuitivelly) and that the variance of the sampling mean is equal to the standard deviation over $n$ (that tends to zero for large $n$).
 
 ### Expected value and variance of the sampling variance
 
