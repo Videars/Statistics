@@ -40,7 +40,7 @@ So the sample mean $\bar{X}$ from a group of observations is an estimate of the 
 Let's compute the expected value and the variance of the sample mean:
 
 $$
-E\[\bar{X}\]=E\[\frac{\sum_i X_i}{n}\]=\frac{1}{n}\sum_i E\[X_i\]=\frac{1}{n}nE\[X\]=E\[X\]
+E\(\bar{X}\)=E\[\frac{\sum_i X_i}{n}\]=\frac{1}{n}\sum_i E\[X_i\]=\frac{1}{n}nE\[X\]=E\[X\]
 $$
 
 $$
