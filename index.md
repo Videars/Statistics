@@ -19,7 +19,7 @@
 
 
 ### Week 6: [Research and codes](https://videars.github.io/Week6/)
-> TBA
+> Definition of population and sample distribution. Expected value and variance of sample mean and sample variance and numerical check, with an application, of the distribution of sample mean and sample variance.
 
 
 ### Week 7: [Research and codes](https://videars.github.io/Week7/)
