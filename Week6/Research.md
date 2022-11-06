@@ -69,6 +69,13 @@ $$
 
 where $\mu_4=E((X-\bar{X})^4)$ is the fourth central moment of $X$.
 
+# Application
+
+With this application is possible to parse a csv file from Wireshark and using the “length” property of each packet we can compute the distribution of the mean and the variance and using all the formulas presented in the earlier section. For each distribution we can compute mean and variance and compare them with the corrisponding values of the population.
+
+In particular we can study how the mean of the sampling mean tends to be close to the mean of the entire population while the bigger we chose the sample size the closer the mean of the sampling variance gets to the variance of the entire population.
+
+<iframe width="750" height="500" src="https://user-images.githubusercontent.com/105921751/200181339-70e545d9-7b13-4bdc-a2b5-eb6a2ec06c3f.mp4" frameborder="0" allowfullscreen></iframe>
 
 [^1]: https://en.wikipedia.org/wiki/Statistical_population
 [^2]: https://en.wikipedia.org/wiki/Sampling_distribution
