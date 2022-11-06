@@ -1,0 +1,17 @@
+C:\Users\Matt\source\repos\SampleDist\SampleDist\bin\Debug\net6.0-windows\SampleDist.exe
+C:\Users\Matt\source\repos\SampleDist\SampleDist\bin\Debug\net6.0-windows\SampleDist.deps.json
+C:\Users\Matt\source\repos\SampleDist\SampleDist\bin\Debug\net6.0-windows\SampleDist.runtimeconfig.json
+C:\Users\Matt\source\repos\SampleDist\SampleDist\bin\Debug\net6.0-windows\SampleDist.dll
+C:\Users\Matt\source\repos\SampleDist\SampleDist\bin\Debug\net6.0-windows\SampleDist.pdb
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.csproj.AssemblyReference.cache
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.Form1.resources
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.csproj.GenerateResource.cache
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.AssemblyInfo.cs
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.dll
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\refint\SampleDist.dll
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.pdb
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\SampleDist.genruntimeconfig.cache
+C:\Users\Matt\source\repos\SampleDist\SampleDist\obj\Debug\net6.0-windows\ref\SampleDist.dll
