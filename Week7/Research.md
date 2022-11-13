@@ -24,7 +24,7 @@ The Lebesgue integral may then be defined by adding up the areas of these horizo
 
 ### Formalization
 
-First thing we need to do is to define when a set is measurable and how to compute his measure according to the Lebesgue theory.
+The first thing we need to do is to define when a set is measurable and how to compute his measure according to the Lebesgue theory.
 
 #### Outer measure [^1]
 Given a set $X$, let $2^{X}$ denote the collection of all subsets of $X$ including the empty set $\varnothing$. An outer measure on $X$ is a set function
