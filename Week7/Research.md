@@ -133,7 +133,7 @@ is called the set of integrable functions on $E$ according to Lebesgue with resp
 
 Lebesgue–Stieltjes integration generalizes both Riemann–Stieltjes and Lebesgue integration, preserving the many advantages of the former in a more general measure-theoretic framework. The Lebesgue–Stieltjes integral is the ordinary Lebesgue integral with respect to a measure known as the Lebesgue–Stieltjes measure, which may be associated to any function of bounded variation on the real line. So the process of definition of this new integral it's exactly same of the Lebesgue's one but starting from a different measure:
 
-for any increasing right-continuous function $g:\mathbb{R}\to\matbb{R}$ there exists a unique measure $\mu_g$ on $(\mathbb{R},\italic{B}(\mathbb{R}))$ satisfying the property:
+for any increasing right-continuous function $g:\mathbb{R}\to\mathbb{R}$ there exists a unique measure $\mu_g$ on $(\mathbb{R},\textit{B}(\mathbb{R}))$ satisfying the property:
 
 $$
 \mu_g((a,b])=g(b)−g(a)
