@@ -98,7 +98,7 @@ The definition of outer measure given above it's a general definition and it may
 For any interval $I=\[a,b\]$, or $I=(a,b)$, in the set $\mathbb {R}$  of real numbers, let $\ell (I)=b-a$ denote its length. For any subset $E\subseteq \mathbb {R} $, the Lebesgue outer measure $\lambda^{\star}(E)$ is defined as an infimum
 
 $$
-{\lambda ^{\star}(E)=\inf \left\{\sum {k=1}^{\infty }\ell (I{k}):{(I_{k}){k\in \mathbb {N} }}{\text{ is a sequence of open intervals with }}E\subset \bigcup_{k=1}^{\infty }I{k}\right\}}
+{\lambda ^{\star}(E)=\inf \left\{\sum{k=1}^{\infty}\ell (I_{k}):{(I_{k})_ {k\in \mathbb {N} }}{\text{ is a sequence of open intervals with }}E\subset \bigcup_{k=1}^{\infty }I{k}\right\}}
 $$
 
 <img width="590" alt="lebesgue" src="https://user-images.githubusercontent.com/105921751/201520510-1b5a02a3-923e-4b75-8766-110554e87c79.png">
