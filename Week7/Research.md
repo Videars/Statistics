@@ -76,7 +76,7 @@ For example, $E$ can be Euclidean $n$-space $R^N$ or some Lebesgue measurable su
 Lebesgue's theory defines integrals for a class of functions called measurable functions. A real-valued function $f$ on $E$ is measurable if the pre-image of every interval of the form $(t, \infty)$ is in $X$:
 
 $$
-\\{x\mid f(x)>t\\}\in X\quad \forall t\in \mathbb {R}.
+\{x\mid f(x)>t\}\in X\quad \forall t\in \mathbb {R}.
 $$
 
 We can show that this is equivalent to requiring that the pre-image of any Borel subset of $\mathbb{R}$ be in $X$. The set of measurable functions is closed under algebraic operations, but more importantly it is closed under various kinds of point-wise sequential limits like: $\limsup_{k\in \mathbb {N} }f_{k}$ or $\limsup_{k\in \mathbb {N} }f_{k}$ (this means that the functions that we obtain from these limits are still measurable).
