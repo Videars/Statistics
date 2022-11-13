@@ -9,6 +9,7 @@ permalink: /Week7/research
 ---
 
 # Research
+> Explain in your own words the law of large numbers and sketch a simple proof. Try to understand the general idea of the Lebesgue-Stieltjes integral and why it is useful notation in theory of Probability
 
 ## Law of large numbers
 
@@ -204,7 +205,7 @@ since the measure that we called $\mu$ now is the measure $\mu_g$ dependent from
 
 
 # Application
-> 
+> Consider a general scheme ad the previous simulation and simulate the distribution of p = SUM (xi) , where di are Bernoulli (lambda/n), with success probability lambda /n , where lambda is a user constant (<n). Also plot the distribution of the interarrival times .
 
 
 Work in progress
