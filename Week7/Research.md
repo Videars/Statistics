@@ -129,6 +129,29 @@ $$
 
 is called the set of integrable functions on $E$ according to Lebesgue with respect to the measure $\mu$ and is denoted by $L^{1}$.
 
+## Lebesgue-Stieltjes Integral
+
+Lebesgue–Stieltjes integration generalizes both Riemann–Stieltjes and Lebesgue integration, preserving the many advantages of the former in a more general measure-theoretic framework. The Lebesgue–Stieltjes integral is the ordinary Lebesgue integral with respect to a measure known as the Lebesgue–Stieltjes measure, which may be associated to any function of bounded variation on the real line. So the process of definition of this new integral it's exactly same of the Lebesgue's one but starting from a different measure:
+
+for any increasing right-continuous function $g:\mathbb{R}\to\matbb{R}$ there exists a unique measure $\mu_g$ on $(\mathbb{R},\italic{B}(\mathbb{R}))$ satisfying the property:
+
+$$
+\mu_g((a,b])=g(b)−g(a)
+$$
+
+for every interval $(a,b]$ with $a<b$.
+
+$\mu_g$ is called the Lebesgue-Stieltjes measure belonging to $g$. The Lebesgue measure is simply the Lebesgue-Stieltjes measure belonging to the identity function (so we obtain $\mu_{Id}((a,b])=l((a,b])=b-a$).
+
+The rest of the formalization is just the same as before but note that now the final form of the integral will be:
+
+$$
+\int_{a}^{b}f(x)\,dg(x)
+$$
+
+since the measure that we called $\mu$ now is the measure $\mu_g$ dependent from the increasing right-continuous function $g$.
+
+
 # Application
 
 
