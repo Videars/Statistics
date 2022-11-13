@@ -2,9 +2,9 @@
 
 theme: jekyll-theme-hacker
 
-title: Week 6 Homework
+title: Week 7 Homework
 
-permalink: /Week6/
+permalink: /Week7/
 
 ---
 
