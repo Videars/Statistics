@@ -109,7 +109,7 @@ $$
 
 So finally we can define the lebesgue integral using simple function (same way we defined the Riemann integral using simple functions).
 
-The Lebesgue integral of a simple function is defined as follows:
+The Lebesgue integral of a simple function is defined as follows:[^5]
 
 $$
 \int_ {F}s\\, d\mu =\sum_{i=1}^{n}a_{i}\\, \mu (A_{i}\cap F),\quad F\in X.
@@ -138,4 +138,4 @@ is called the set of integrable functions on $E$ according to Lebesgue with resp
 [^2]: https://en.wikipedia.org/wiki/Lebesgue_measure
 [^3]: https://en.wikipedia.org/wiki/Lebesgue_integration
 [^4]: https://en.wikipedia.org/wiki/Borel_set
-[^5]: 
+[^5]: https://it.wikipedia.org/wiki/Integrale_di_Lebesgue
