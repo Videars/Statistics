@@ -10,6 +10,53 @@ permalink: /Week7/research
 
 # Research
 
+## Law of large numbers
+
+In order to prove the so called law of large numbers, we first need two results: the Markov Inequality and the Chebyshev Inequality. After proving them, we will see how they lead to the Law of large numbers.
+
+### Markov Inequality
+The Markov inequality states that given any non-negative random variable $X$ and a generic $a>0$, then:
+
+$$
+P(X\geq a)\leq \frac{E(X)}{a}
+$$
+
+### Chebyshev Inequality
+The Chebyshev inequality is a result that immediately follows from the Markov inequality. In fact, it states that given any random variable $X$, then:
+
+$$
+P(|X-E(X)|\geq a)\leq\frac{Var(X)}{a^2}
+$$
+
+### Law of large numbers [^1]
+Let’s consider now any random variable $X$, $\bar{X}$ his sample mean and we have already seen that $E(\bar{X})=\mu$ and that $Var(\bar{X})=\frac{\sigma^2}{n}$.
+By Chebyshev inequality:
+
+$$
+P(|\bar{X}-E(\bar{X})|\geq a)\leq\frac{Var(\bar{X})}{a^{2}}
+$$
+
+But knowing expected value and variance of the sample mean, we can rewrite:
+
+$$
+P(|\bar{X}-\mu|\geq a)\leq\frac{\sigma^2}{na^{2}}
+$$
+
+Then, if the number of samples we take for the sample mean is arbitrarily large, meaning that $n\to\infty$, we will have that:
+
+$$
+P(|\bar{X}-\mu|\geq a)\rightarrow 0
+$$
+
+But this is exactly the definition of convergence in probability: we have that for $n\to\infty$, the sample mean $\bar{x}$ converges in probability to the expected value $\mu$.
+
+$$
+\bar{X}_ n\rightarrow 0 \text{  when  } n \rightarrow +\infty
+$$
+
+This result is called weak law of large numbers.
+
+
 ## Lebesgue Integral
 
 Untill now we studied the Riemann Integral in which the domain is partitioned into intervals, and bars are constructed to meet the height of the graph. The areas of these bars are added together, and this approximates the integral, in effect by summing areas of the form $f(x)dx$ where $f(x)$ is the height of a rectangle and $dx$ is its width. With this kind of integration we can face some particular functions that we are not able to integrate (for istance it's sufficient to take $f(x)=0$ if $x$ is irrational and $f(x)=1$ if $x$ is rational, called the Dirichlet function). That's why we have the need to expand our definitions of measurability and integration.
@@ -26,7 +73,7 @@ The Lebesgue integral may then be defined by adding up the areas of these horizo
 
 The first thing we need to do is to define when a set is measurable and how to compute his measure according to the Lebesgue theory.
 
-#### Outer measure [^1]
+#### Outer measure [^2]
 Given a set $X$, let $2^{X}$ denote the collection of all subsets of $X$ including the empty set $\varnothing$. An outer measure on $X$ is a set function
 
 $$
@@ -43,11 +90,15 @@ $$
 \mu \left(\bigcup_{j=1}^{\infty }B_{j}\right)\leq \sum_{j=1}^{\infty }\mu (B_{j})
 $$
 
-#### Lebesgue outer measure [^2]
+#### Lebesgue outer measure [^3]
 
 The definition of outer measure given above it's a general definition and it may takes to different kind of measurability concepts depending on the form of the function $\mu$. So let's define the Lebesgue's outer measure so we can state whether or not a set is Lebesgue measurable.
 
 For any interval $I=\[a,b\]$, or $I=(a,b)$, in the set $\mathbb {R}$  of real numbers, let $\ell (I)=b-a$ denote its length. For any subset $E\subseteq \mathbb {R} $, the Lebesgue outer measure $\lambda^{\star}(E)$ is defined as an infimum
+
+$$
+{\lambda ^{\star}(E)=\inf \left\{\sum {k=1}^{\infty }\ell (I{k}):{(I_{k}){k\in \mathbb {N} }}{\text{ is a sequence of open intervals with }}E\subset \bigcup_{k=1}^{\infty }I{k}\right\}}
+$$
 
 <img width="590" alt="lebesgue" src="https://user-images.githubusercontent.com/105921751/201520510-1b5a02a3-923e-4b75-8766-110554e87c79.png">
 
@@ -65,7 +116,7 @@ More intuitively the subset $E$ of the real numbers is reduced to its outer meas
 
 That characterizes the Lebesgue outer measure. Whether this outer measure translates to the Lebesgue measure proper depends on an additional condition. This condition is tested by taking subsets $A$ of the real numbers using $E$ as an instrument to split $A$ into two partitions: the part of $A$ which intersects with $E$ and the remaining part of $A$ which is not in $E$: the set difference of $A$ and $E$. These partitions of $A$ are subject to the outer measure. If for all possible such subsets $A$ of the real numbers, the partitions of $A$ cut apart by $E$ have outer measures whose sum is the outer measure of $A$, then the outer Lebesgue measure of $E$ gives its Lebesgue measure. This condition means that the set $E$ must not have some curious properties which causes a discrepancy in the measure of another set when $E$ is used as a "mask" to "clip" that set, hinting at the existence of sets for which the Lebesgue outer measure does not give the Lebesgue measure. Such sets are, in fact, not Lebesgue-measurable.
 
-#### Lebesgue measurable functions [^3]
+#### Lebesgue measurable functions [^4]
 
 We start with a measure space $(E, X, \mu)$ where $E$ is a set, $X$ is a σ-algebra of subsets of $E$, and $\mu$ is a (non-negative) measure on $E$ defined on the sets of $X$.
 
@@ -79,9 +130,9 @@ $$
 
 We can show that this is equivalent to requiring that the pre-image of any Borel subset of $\mathbb{R}$ be in $X$. The set of measurable functions is closed under algebraic operations, but more importantly it is closed under various kinds of point-wise sequential limits like: $\limsup_{k\in \mathbb {N} }f_{k}$ or $\limsup_{k\in \mathbb {N} }f_{k}$ (this means that the functions that we obtain from these limits are still measurable).
 
-Note:[^4] a Borel set is any set in a topological space that can be formed from open sets (or, equivalently, from closed sets) through the operations of countable union, countable intersection, and relative complement. For a topological space $X$, the collection of all Borel sets on $X$ forms a σ-algebra.
+Note:[^5] a Borel set is any set in a topological space that can be formed from open sets (or, equivalently, from closed sets) through the operations of countable union, countable intersection, and relative complement. For a topological space $X$, the collection of all Borel sets on $X$ forms a σ-algebra.
 
-#### Lebesgue integral definition [^5]
+#### Lebesgue integral definition [^6]
 
 New need one last thing to formalize the definition of the Lebesgue integral and that is the concept of simple functions:
 
@@ -153,10 +204,14 @@ since the measure that we called $\mu$ now is the measure $\mu_g$ dependent from
 
 
 # Application
+> 
 
 
-[^1]: https://en.wikipedia.org/wiki/Outer_measure
-[^2]: https://en.wikipedia.org/wiki/Lebesgue_measure
-[^3]: https://en.wikipedia.org/wiki/Lebesgue_integration
-[^4]: https://en.wikipedia.org/wiki/Borel_set
-[^5]: https://it.wikipedia.org/wiki/Integrale_di_Lebesgue
+Work in progress
+
+[^1]: https://en.wikipedia.org/wiki/Law_of_large_numbers
+[^2]: https://en.wikipedia.org/wiki/Outer_measure
+[^3]: https://en.wikipedia.org/wiki/Lebesgue_measure
+[^4]: https://en.wikipedia.org/wiki/Lebesgue_integration
+[^5]: https://en.wikipedia.org/wiki/Borel_set
+[^6]: https://it.wikipedia.org/wiki/Integrale_di_Lebesgue
