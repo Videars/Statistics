@@ -10,4 +10,4 @@ permalink: /Week7/
 
 ### Research: [Paper](https://videars.github.io/Week7/research)
 
-### App: [law of large numbers (C\#)]()
+### App: [Binomial (C\#)]() work in progress
