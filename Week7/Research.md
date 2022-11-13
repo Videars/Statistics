@@ -139,7 +139,7 @@ $$
 \mu_g((a,b])=g(b)−g(a)
 $$
 
-for every interval $(a,b]$ with $a<b$.
+for every interval $(a,b]$ with $a < b$.
 
 $\mu_g$ is called the Lebesgue-Stieltjes measure belonging to $g$. The Lebesgue measure is simply the Lebesgue-Stieltjes measure belonging to the identity function (so we obtain $\mu_{Id}((a,b])=l((a,b])=b-a$).
 
