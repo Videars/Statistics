@@ -30,12 +30,12 @@ First thing we need to do is to define when a set is measurable and how to compu
 Given a set $X$, let $2^{X}$ denote the collection of all subsets of $X$ including the empty set $\varnothing$. An outer measure on $X$ is a set function
 
 $$
-\mu :2^{X}\to \[0,\infty \]
+\mu :2^{X}\to (0,\infty)
 $$
 
 such that:
 
-+ null empty set: $mu (\varnothing )=0$
++ null empty set: $\mu (\varnothing )=0$
 + monotone: if $A$ and $B$ are subsets of $X$ with $A\subseteq B$ then $\mu (A)\leq \mu (B)$
 + for arbitrary subsets $B_1, B_2, \ldots$ of $X$,
 
@@ -50,7 +50,7 @@ The definition of outer measure given above it's a general definition and it may
 For any interval $I=\[a,b\]$, or $I=(a,b)$, in the set $\mathbb {R}$  of real numbers, let $\ell (I)=b-a$ denote its length. For any subset $E\subseteq \mathbb {R} $, the Lebesgue outer measure $\lambda^{\star}(E)$ is defined as an infimum
 
 $$
-\lambda^{\star}(E)=\inf\left\\{\sum_{k=1}^{\infty}\ell (I_{k}):(I_{k}) \forall k\in \mathbb{N} \text{ is a sequence of open intervals with }E\subset \bigcup_{k=1}^{\infty }I_{k}\right\\}
+\lambda^{\star}(E)=\inf\left\\{\sum_{k=1}^{\infty}\ell (I_{k}):(I_{k})\forall k\in\mathbb{N}\text{ is a sequence of open intervals with }E\subset\bigcup_{k=1}^{\infty }I_{k}\right\\}
 $$
 
 Some sets $E$ satisfy the following criterion, which requires that for every $A\subseteq \mathbb {R}$,
