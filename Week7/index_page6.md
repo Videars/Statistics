@@ -8,6 +8,6 @@ permalink: /Week6/
 
 ---
 
-### Research: [Paper](https://videars.github.io/Week6/research)
+### Research: [Paper](https://videars.github.io/Week7/research)
 
-### App: [Sample Distribution (C\#)](https://github.com/Videars/videars.github.io/tree/main/Week6/SampleDist)
+### App: [law of large numbers (C\#)]()
