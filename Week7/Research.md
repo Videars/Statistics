@@ -12,7 +12,7 @@ permalink: /Week7/research
 
 ## Lebesgue Integral
 
-Since now we studied the Riemann Integral in which the domain is partitioned into intervals, and bars are constructed to meet the height of the graph. The areas of these bars are added together, and this approximates the integral, in effect by summing areas of the form $f(x)dx$ where $f(x)$ is the height of a rectangle and $dx$ is its width. With this kind of integration we can face some particular functions that we are not able to integrate (for istance it's sufficient to take $f(x)=0$ if $x$ is irrational and $f(x)=1$ if $x$ is rational, called the Dirichlet function). That's why we have the need to expand our definitions of measurability and integration.
+Untill now we studied the Riemann Integral in which the domain is partitioned into intervals, and bars are constructed to meet the height of the graph. The areas of these bars are added together, and this approximates the integral, in effect by summing areas of the form $f(x)dx$ where $f(x)$ is the height of a rectangle and $dx$ is its width. With this kind of integration we can face some particular functions that we are not able to integrate (for istance it's sufficient to take $f(x)=0$ if $x$ is irrational and $f(x)=1$ if $x$ is rational, called the Dirichlet function). That's why we have the need to expand our definitions of measurability and integration.
 
 One way of doing that is to define the Lebsegue integral: intuitively, for this new integral, the range is partitioned into intervals, and so the region under the graph is partitioned into horizontal "slabs" (which may not be connected sets). The area of a small horizontal "slab" under the graph of $f$, of height $dy$, is equal to the measure of the slab's width times $dy$:
 
