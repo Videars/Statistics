@@ -30,7 +30,7 @@ The first thing we need to do is to define when a set is measurable and how to c
 Given a set $X$, let $2^{X}$ denote the collection of all subsets of $X$ including the empty set $\varnothing$. An outer measure on $X$ is a set function
 
 $$
-\mu :2^{X}\to (0,\infty)
+\mu :2^{X}\to [0,\infty]
 $$
 
 such that:
