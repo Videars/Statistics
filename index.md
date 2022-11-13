@@ -23,7 +23,7 @@
 
 
 ### Week 7: [Research and codes](https://videars.github.io/Week7/)
-> TBA
+> Law of large numbers and sketch of a simple proof. General idea of the Lebesgue-Stieltjes integral and why it is useful notation in theory of Probability. Plotting of a binomial distribution and of the interarrival times.
 
 
 ### Week 8: [Research and codes](https://videars.github.io/Week8/)
