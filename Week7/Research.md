@@ -104,7 +104,7 @@ $$
 So let be $a_1, \dots ,a_n$ the values assumed by the simple function $s$ and $A_i=\\{x:s(x)=a_i\\}$, then:
 
 $$
-s(x)=\sum_{i=1}^{n}a_i\\, \mathbf{1}_ {A_i}(x)
+s(x)=\sum_{i=1}^{n}a_i\, \mathbf{1}_ {A_i}(x)
 $$
 
 So finally we can define the lebesgue integral using simple function (same way we defined the Riemann integral using simple functions).
@@ -112,13 +112,13 @@ So finally we can define the lebesgue integral using simple function (same way w
 The Lebesgue integral of a simple function is defined as follows:
 
 $$
-\int_ {F}s\\, d\mu =\sum_{i=1}^{n}a_{i}\\, \mu (A_{i}\cap F),\quad F\in X.
+\int_ {F}s\, d\mu =\sum_{i=1}^{n}a_{i}\, \mu (A_{i}\cap F),\quad F\in X.
 $$
 
 Let $f$ a non-negative measurable function on $E$ to $\mathbb{R}$. The Lebesgue integral of $f$ on the whole $F$ with respect to the measure $\mu$ is defined as follows:
 
 $$
-\int_ {F} f\\, d\mu := \sup \int_ {F} s\\, d\mu
+\int_ {F} f\, d\mu := \sup \int_ {F} s\, d\mu
 $$
 
 where the upper bound is evaluated considering all simple functions $s$ such that $0\leq s\leq f$. The value of the integral is a number in the range $\[0, + \infty\]$.
@@ -126,7 +126,7 @@ where the upper bound is evaluated considering all simple functions $s$ such tha
 The set of functions such that:
 
 $$
-\int_ {E} |f|\\, d\mu <\infty
+\int_ {E} |f|\, d\mu <\infty
 $$
 
 is called the set of integrable functions on $E$ according to Lebesgue with respect to the measure $\mu$ and is denoted by $L^{1}$.
