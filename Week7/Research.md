@@ -83,7 +83,7 @@ We can show that this is equivalent to requiring that the pre-image of any Borel
 
 Note:[^4] a Borel set is any set in a topological space that can be formed from open sets (or, equivalently, from closed sets) through the operations of countable union, countable intersection, and relative complement. For a topological space $X$, the collection of all Borel sets on $X$ forms a σ-algebra.
 
-#### Lebesgue integral definition
+#### Lebesgue integral definition [^5]
 
 New need one last thing to formalize the definition of the Lebesgue integral and that is the concept of simple functions:
 
@@ -109,7 +109,7 @@ $$
 
 So finally we can define the lebesgue integral using simple function (same way we defined the Riemann integral using simple functions).
 
-The Lebesgue integral of a simple function is defined as follows:[^5]
+The Lebesgue integral of a simple function is defined as follows:
 
 $$
 \int_ {F}s\\, d\mu =\sum_{i=1}^{n}a_{i}\\, \mu (A_{i}\cap F),\quad F\in X.
