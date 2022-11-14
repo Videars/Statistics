@@ -10,4 +10,4 @@ permalink: /Week7/
 
 ### Research: [Paper](https://videars.github.io/Week7/research)
 
-### App: [Binomial (C\#)]() work in progress
+### App: [Bernoulli(C\#)](https://github.com/Videars/videars.github.io/tree/main/Week7/Bernoulli)
