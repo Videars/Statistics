@@ -1,0 +1,17 @@
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\bin\Debug\net6.0-windows\Bernoulli.exe
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\bin\Debug\net6.0-windows\Bernoulli.deps.json
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\bin\Debug\net6.0-windows\Bernoulli.runtimeconfig.json
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\bin\Debug\net6.0-windows\Bernoulli.dll
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\bin\Debug\net6.0-windows\Bernoulli.pdb
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.csproj.AssemblyReference.cache
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.Form1.resources
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.csproj.GenerateResource.cache
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.AssemblyInfo.cs
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.dll
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\refint\Bernoulli.dll
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.pdb
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\Bernoulli.genruntimeconfig.cache
+C:\Users\Matt\source\repos\Bernoulli\Bernoulli\obj\Debug\net6.0-windows\ref\Bernoulli.dll
