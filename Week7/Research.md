@@ -205,8 +205,9 @@ since the measure that we called $\mu$ now is the measure $\mu_g$ dependent from
 # Application
 > Consider a general scheme ad the previous simulation and simulate the distribution of p = SUM (xi) , where di are Bernoulli (lambda/n), with success probability lambda /n , where lambda is a user constant (<n). Also plot the distribution of the interarrival times .
 
+Following the work done in the [homework 4](https://videars.github.io/Week4/research), we compute the distribution of samples of coin tosses but this time with a siccess probability for each toss of $\lambda/n$ where $\lamda$ is a parameter chosen by the user. This time we will compute di histogram for the interarrival times too. Here is a video of how the application works.
 
-Work in progress
+<iframe width="750" height="500" src="https://user-images.githubusercontent.com/105921751/201766812-b21566bb-4512-4b34-97a9-49ef9f3f3ceb.mp4" frameborder="0" allowfullscreen></iframe>
 
 [^1]: https://en.wikipedia.org/wiki/Law_of_large_numbers
 [^2]: https://en.wikipedia.org/wiki/Outer_measure
