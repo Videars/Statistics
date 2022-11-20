@@ -31,5 +31,26 @@ defined as $\pi - \frac{\pi}{4}$, or $0.75 * \pi$.
 
 So even though the two halves are even, the area described by rotating the two halves around the center are drastically different. In order to allow for an even distribution, then, we need to take the square root of the random number before multiplying it by the radius to get our hypotenuse, so that we can exponentially favor values farther from the center.
 
-Once we have our values for ang and hyp, we can simply use sine and cosine to obtain values for the opposite ($opp$) and adjacent ($adj$) legs of our right triangle, which will equal the amount we need to add to/subtract from the x and y coordinates of our center point $(XC, YC)$.
+Once we have our values for $\theta$ and $hyp$, we can simply use sine and cosine to obtain values for the opposite ($opp$) and adjacent ($adj$) legs of our right triangle, which will equal the amount we need to add to/subtract from the x and y coordinates of our center point $(XC, YC)$.
 
+<img width="500" alt="dLc2H2S" src="https://user-images.githubusercontent.com/105921751/202917376-7f5eff32-97b0-46c4-b48c-8c663a5592c3.png">
+
+## Marsaglia polar method [^1]
+
+The Marsaglia polar method is a pseudo-random number sampling method for generating a pair of independent standard normal random variables.
+The polar method works by choosing random points $(x, y)$ in the square $−1 < x < 1$, $−1 < y < 1$ until
+
+$$
+0 < s = x^2 + y^2 <1
+$$
+
+and then returning the required pair of normal random variables as
+
+$$
+\frac{x}{\sqrt{s}}\sqrt{-2\ln(s)}\,\,\,\frac{y}{\sqrt{s}}\sqrt{-2\ln(s)}
+$$
+
+where $x/\sqrt{s}$ and $y/\sqrt{s}$ represent the cosine and sine of the angle that the vector $(x, y)$ makes with $x$ axis.
+
+
+[^1]: https://en.wikipedia.org/wiki/Marsaglia_polar_method
