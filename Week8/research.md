@@ -52,5 +52,59 @@ $$
 
 where $x/\sqrt{s}$ and $y/\sqrt{s}$ represent the cosine and sine of the angle that the vector $(x, y)$ makes with $x$ axis.
 
+# Important distributions
+
+### Chi squared distribution [^2]
+
+If $Z1, \ldots, Zk$ are independent, standard normal random variables, then the sum of their squares,
+
+$$
+Q =\sum_{i=1}^{k}Z_{i}^{2}
+$$
+
+is distributed according to the chi-squared distribution with $k$ degrees of freedom. This is usually denoted as
+
+$$
+Q\sim\chi^{2}(k)\ \ {\text{or}}\ \ Q\sim\chi_{k}^{2}
+$$
+
+The chi-squared distribution has one parameter: a positive integer $k$ that specifies the number of degrees of freedom (the number of random variables being summed).
+
+### Cauchy distribution [^3]
+
+The Cauchy distribution has the probability density function:
+
+$$
+f(x;x_{0},\gamma)=\frac{1}{\pi\gamma\left[1+\left(\frac{x-x_{0}}{\gamma}\right)^{2}\right]}={1\over\pi\gamma}\left[{\gamma^{2}\over(x-x_{0})^{2}+\gamma^{2}}\right]
+$$
+
+where $x_0$ is the location parameter, specifying the location of the peak of the distribution, and $\gamma$  is the scale parameter which specifies the half-width at half-maximum (HWHM), alternatively $2\gamma$  is full width at half maximum (FWHM). $\gamma$  is also equal to half the interquartile range and is sometimes called the probable error.
+
+### Fisher-Snedocor distribution [^4]
+
+The F-distribution with $d1$ and $d2$ degrees of freedom is the distribution of
+
+$$
+X=\frac{S_{1}/d_{1}}{S_{2}/d_{2}}
+$$
+
+where $S_{1}$ and $S_{2}$ are independent random variables with chi-square distributions with respective degrees of freedom $d_{1}$ and $d_{2}$.
+
+### T-Student distribution [^5]
+
+The distribution of a Student-T random variable, defined as:
+
+$$
+{T_{n}={\frac {Z}{\sqrt {K/n}}}}
+$$
+ 
+where $Z$ is a normal random variable and $K$ is a $\chi^2$ random variable with $n$ degrees of freedom.
+
+
+
 
 [^1]: https://en.wikipedia.org/wiki/Marsaglia_polar_method
+[^2]: https://en.wikipedia.org/wiki/Chi-squared_distribution
+[^3]: https://en.wikipedia.org/wiki/Cauchy_distribution
+[^4]: https://en.wikipedia.org/wiki/F-distribution
+[^5]: https://en.wikipedia.org/wiki/Student%27s_t-distribution
