@@ -9,9 +9,44 @@ permalink: /Week8/research
 ---
 
 # Research
-> Consider X and Y uniform r.vs. and use them to determine points on a plane as image. Determine the empirical distribution of the Cartesian coordinates. Search for the methods to generate a NORMAL r.v. X
+> Derivations of the normal distribution. Consider X and Y uniform r.vs. and use them to determine points on a plane as image. Determine the empirical distribution of the Cartesian coordinates. Search for the methods to generate a NORMAL r.v. X
 
-# Points distribution in a circle
+## Normal distribution derivations
+### De Moivre
+
+As $n$ grows large, for $k$ in the neighborhood of $np$ we can approximate
+
+$$
+{n\choose k}\,p^{k}q^{n-k}\simeq{\frac{1}{\sqrt{2\pi npq}}}\,e^{-{\frac{(k-np)^{2}}{2npq}}},\qquad p+q=1,\ p,q>0
+$$
+
+in the sense that the ratio of the left-hand side to the right-hand side converges to $1$ as $n\to\infty$.
+
+### Gauss
+
+A Gaussian function is a function of the base form
+
+$$
+f(x)=Ae^{-{\frac{(x-b)^{2}}{2c^{2}}}}
+$$
+
+for arbitrary real constants $A$, $b$ and non-zero $c$.
+
+Gaussian functions are often used to represent the probability density function of a normally distributed random variable with expected value $\mu = b$ and variance $\sigma^2 = c^2$. In this case, the Gaussian is of the form
+
+$$
+g(x)={\frac {1}{\sigma {\sqrt {2\pi }}}}e^{-{\frac {1}{2}}{\frac {(x-\mu )^{2}}{\sigma ^{2}}}}
+$$
+
+### Central Limit theorem
+
+Suppose $X_1,\ldots ,X_n,\ldots$ is a sequence of i.i.d. random variables with $\mathbb{E}[X_{i}]=\mu$ and $Var[X_{i}]=\sigma^{2}<\infty$. Then as $n$ approaches infinity, the random variables ${\sqrt{n}}({\bar{X}}_ {n}-\mu)$ converge in distribution to a normal $\mathcal{N}(0,\sigma^{2})$:
+
+$$
+\sqrt{n}\left({\bar{X}}_ {n}-\mu \right)\ \xrightarrow{d} \ {\mathcal {N}}\left(0,\sigma ^{2}\right)
+$$
+
+## Points distribution in a circle
 
 The easiest way to get a random point in a circle is to use polar notation.
 With polar notation, you can define any point in the circle with the polar angle ($\theta$) and the length of the hypotenuse ($hyp$).
