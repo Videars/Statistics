@@ -10,6 +10,6 @@ permalink: /Week8/
 
 ### Research: [Paper](https://videars.github.io/Week8/research)
 
-### App1: [(C\#)]() work in progress
+### App1: [Random Points Generation(C\#)](https://github.com/Videars/videars.github.io/tree/main/Week8/RandomPoints)
 
-### App2: [(C\#)]() work in progress
+### App2: [Distributions(C\#)](https://github.com/Videars/videars.github.io/tree/main/Week8/Distributions)
