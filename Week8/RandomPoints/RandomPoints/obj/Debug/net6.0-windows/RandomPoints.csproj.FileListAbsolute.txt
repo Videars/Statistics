@@ -1,0 +1,17 @@
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\bin\Debug\net6.0-windows\RandomPoints.exe
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\bin\Debug\net6.0-windows\RandomPoints.deps.json
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\bin\Debug\net6.0-windows\RandomPoints.runtimeconfig.json
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\bin\Debug\net6.0-windows\RandomPoints.dll
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\bin\Debug\net6.0-windows\RandomPoints.pdb
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.csproj.AssemblyReference.cache
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.Form1.resources
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.csproj.GenerateResource.cache
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.AssemblyInfoInputs.cache
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.AssemblyInfo.cs
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.csproj.CoreCompileInputs.cache
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.dll
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\refint\RandomPoints.dll
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.pdb
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\RandomPoints.genruntimeconfig.cache
+C:\Users\mvica\source\repos\RandomPoints\RandomPoints\obj\Debug\net6.0-windows\ref\RandomPoints.dll
