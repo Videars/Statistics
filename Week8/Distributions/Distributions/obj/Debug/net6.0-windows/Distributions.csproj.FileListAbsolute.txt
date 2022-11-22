@@ -1,0 +1,17 @@
+C:\Users\mvica\source\repos\Distributions\Distributions\bin\Debug\net6.0-windows\Distributions.exe
+C:\Users\mvica\source\repos\Distributions\Distributions\bin\Debug\net6.0-windows\Distributions.deps.json
+C:\Users\mvica\source\repos\Distributions\Distributions\bin\Debug\net6.0-windows\Distributions.runtimeconfig.json
+C:\Users\mvica\source\repos\Distributions\Distributions\bin\Debug\net6.0-windows\Distributions.dll
+C:\Users\mvica\source\repos\Distributions\Distributions\bin\Debug\net6.0-windows\Distributions.pdb
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.csproj.AssemblyReference.cache
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.Form1.resources
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.csproj.GenerateResource.cache
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.AssemblyInfoInputs.cache
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.AssemblyInfo.cs
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.csproj.CoreCompileInputs.cache
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.dll
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\refint\Distributions.dll
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.pdb
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\Distributions.genruntimeconfig.cache
+C:\Users\mvica\source\repos\Distributions\Distributions\obj\Debug\net6.0-windows\ref\Distributions.dll
