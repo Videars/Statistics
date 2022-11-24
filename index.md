@@ -1,19 +1,3 @@
----
-layout: default
----
-
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
-
-<p class="view">by {{ page.author | default: site.author }}</p>
-
-{{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
-
-
 ### Week 1: [Research and codes](https://videars.github.io/Week1/)
 > Definition of statistics and dataset. Application of statistics to cybersecurity. Simple App in C# and VB.net.
 
