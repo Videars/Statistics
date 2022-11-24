@@ -2,8 +2,6 @@
 
 theme: jekyll-theme-hacker
 
-layout: default
-
 title: Week 1 Homework
 
 permalink: /Week1/
