@@ -2,7 +2,7 @@
 
 theme: jekyll-theme-hacker
 
-layout: post
+layout: default
 
 title: Week 1 Homework
 
